@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* WIDGET STYLE RESET */
+
+#electoral-college-widget div,
+#electoral-college-widget span,
+#electoral-college-widget h1,
+#electoral-college-widget h2,
+#electoral-college-widget h3,
+#electoral-college-widget h4,
+#electoral-college-widget h5,
+#electoral-college-widget h6,
+#electoral-college-widget p,
+#electoral-college-widget a,
+#electoral-college-widget img,
+#electoral-college-widget strong,
+#electoral-college-widget b,
+#electoral-college-widget u,
+#electoral-college-widget i,
+#electoral-college-widget ol,
+#electoral-college-widget ul,
+#electoral-college-widget li,
+#electoral-college-widget form,
+#electoral-college-widget label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-indent: 0;
+
+}
+#electoral-college-widget i.fa {
+  font: normal normal normal 100%/1 FontAwesome;
+}
+#electoral-college-widget ol,
+#electoral-college-widget ul {
+  list-style: none;
+}

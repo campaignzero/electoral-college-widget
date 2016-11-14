@@ -3,6 +3,8 @@
 Electoral College Widget
 ===
 
+![Demo](http://i.imgur.com/lpZ648g.gif "Demo")
+
 Usage Instructions
 ---
 

@@ -174,8 +174,9 @@ var appWidget = {
 
     jQuery('.modal', elm).show();
     jQuery('.close-modal-button', elm).off('click.widget');
-    jQuery('.close-modal-button', elm).on('click.widget', function () {
+    jQuery('.close-modal-button', elm).on('click.widget', function (event) {
       appWidget.hideModal(state);
+      event.preventDefault();
     });
   },
 

@@ -73,7 +73,7 @@ var appWidget = {
 
             // Setup Photo
             if (ec[i].photo !== '') {
-              jQuery('.photo', $li).css('background-image', 'url("'+ ec[i].photo +'")');
+              jQuery('.photo', $li).css('background-image', 'url("https://proxy.joincampaignzero.org/'+ ec[i].photo +'")');
             }
 
             // Setup Email

@@ -5,7 +5,7 @@
   var jqueryVersion = '1.12.3';
   var scriptTag;
   var pathLocal = './app/';
-  var pathCDN = 'https://s3.amazonaws.com/electoral-college-widget/';
+  var pathCDN = 'https://s3.amazonaws.com/campaign-zero-electoral-college-widget/';
   var elementName = 'electoral-college-widget';
   var loadedCSS = false;
   var loadedJS = false;

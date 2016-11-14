@@ -40,7 +40,7 @@ https://electoral-college.joincampaignzero.org/widget.js
 
 For browsers that let you use iFrames, you can also use:
 
-```
+```html
 <iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="600" height="630" frameborder="0" ></iframe>
 ```
 

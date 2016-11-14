@@ -21,48 +21,34 @@ var appWidget = {
     }
   },
 
-  /**
-   * Show Error Message
-   * @param error
-   */
-  showError: function(error){
-    if (typeof Bugsnag !== 'undefined') {
-      Bugsnag.notifyException(error);
-    }
-  },
-
   resize: function() {
     var elm = jQuery('#' + this.elementName);
     var width = elm.width();
 
-    elm.removeClass('w200 w220 w240 w280 w300 w320 w380');
-
-    if (width <= 200) {
-      elm.addClass('w200');
-    }
-
-    if (width <= 220) {
-      elm.addClass('w220');
-    }
-
-    if (width <= 240) {
-      elm.addClass('w240');
-    }
-
-    if (width <= 280) {
-      elm.addClass('w280');
-    }
+    elm.removeClass('xs xs s m l xl xxl');
 
     if (width <= 300) {
-      elm.addClass('w300');
+      elm.addClass('xs');
     }
 
-    if (width <= 320) {
-      elm.addClass('w320');
+    if (width > 300 && width <= 400) {
+      elm.addClass('s');
     }
 
-    if (width <= 380) {
-      elm.addClass('w380');
+    if (width > 400 && width <= 500) {
+      elm.addClass('m');
+    }
+
+    if (width > 500 && width <= 600) {
+      elm.addClass('l');
+    }
+
+    if (width > 600 && width <= 700) {
+      elm.addClass('xl');
+    }
+
+    if (width > 700) {
+      elm.addClass('xxl');
     }
   },
 
@@ -70,24 +56,42 @@ var appWidget = {
    * Load Initial Widget Form
    */
   init: function(){
-    var self = this;
     var elm = jQuery('#' + this.elementName);
-        elm.html('').append('Coming Soon');
+    var lastState = '';
+
+    jQuery(elm).load(appWidget.settings.base + 'template/map.html', function () {
+      jQuery('a.state').click(function () {
+        var code = $(this).data('code');
+        var state = $(this).data('state');
+        var party = $(this).data('party');
+
+        jQuery('a.state').removeClass('active');
+
+        if (state === lastState) {
+          lastState = '';
+          jQuery('.state-selection').html('<div class="message animated fadeIn"><i class="material-icons animated fadeInUp">keyboard_arrow_up</i> Select a State to Get Started <i class="material-icons animated fadeInUp">keyboard_arrow_up</i></div>');
+          return false;
+        }
+
+        lastState = state;
+
+        jQuery(this).addClass('active');
+
+        appWidget.trackEvent('Nav', 'State Clicked', state);
+        appWidget.trackEvent('Nav', 'Party Clicked', party);
+
+        if (party === 'democrat') {
+          jQuery('.state-selection').html('<div class="message animated fadeIn"><i class="material-icons">thumb_up</i> ' + state + ' voted for Clinton</div>');
+        } else {
+          jQuery('.state-selection').html('<button id="state-button" class="animated fadeIn"><span>View </span><strong>' + state + '</strong> Electors <i class="material-icons">keyboard_arrow_right</i></button>');
+        }
+      });
+    });
 
     appWidget.resize();
 
     setTimeout(function(){
-
-      jQuery('a', elm).click(function(){
-        appWidget.trackEvent('Nav', 'Link Clicked', jQuery(this).text());
-      });
-
-      jQuery('button', elm).click(function(){
-        appWidget.trackEvent('Nav', 'Button Clicked', jQuery(this).text());
-      });
-
       jQuery('.wrapper', elm).show();
-
     }, 200);
   }
 };

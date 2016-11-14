@@ -2,33 +2,389 @@
 @import url(reset.css);
 @import url(animate.css);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
-
-
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 /* MAIN WIDGET STYLES */
-
 #electoral-college-widget {
   box-sizing: border-box;
-  max-width: 400px;
+  width: 100%;
+  min-width: 260px;
+  max-width: 800px;
   border: 1px solid #e3e3e3;
-  background-color: #f5f5f5;
+  background-color: #fbfbfb;
   font-family: 'Source Sans Pro', sans-serif;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   margin: 0 auto;
   position: relative;
-  min-height: 345px;
-  overflow: hidden;
-}
-#electoral-college-widget *,
-#electoral-college-widget *:before,
-#electoral-college-widget *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
-#electoral-college-widget .wrapper {
-  padding: 20px;
-}
+  overflow: hidden; }
+  #electoral-college-widget *, #electoral-college-widget *:before, #electoral-college-widget *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased; }
+  #electoral-college-widget h1 {
+    text-transform: uppercase;
+    display: block;
+    color: #1a80c4;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; }
+  #electoral-college-widget h2 {
+    display: block;
+    color: #999;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    margin: 0 auto;
+    text-transform: uppercase; }
+    #electoral-college-widget h2 strong {
+      color: #666;
+      font-weight: 400; }
+  #electoral-college-widget .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased; }
+  #electoral-college-widget .map {
+    width: 100%; }
+    #electoral-college-widget .map .row {
+      display: flex;
+      width: 100%; }
+    #electoral-college-widget .map .block {
+      display: inline-block;
+      background: #FFF;
+      float: left;
+      position: relative;
+      width: calc(100% / 12);
+      padding-bottom: calc(100% / 12);
+      overflow: hidden;
+      border: 1px solid #fbfbfb; }
+      #electoral-college-widget .map .block.empty {
+        background: none; }
+      #electoral-college-widget .map .block a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        color: #666;
+        transition: all 0.25s ease-in-out; }
+        #electoral-college-widget .map .block a.democrat-light {
+          background: #bee1ed;
+          color: #1a80c4; }
+        #electoral-college-widget .map .block a.democrat, #electoral-college-widget .map .block a.democrat-light:hover, #electoral-college-widget .map .block a.democrat-light.active {
+          background: #1a80c4;
+          color: #FFF; }
+        #electoral-college-widget .map .block a.republican {
+          background: #cc3d3d;
+          color: #FFF; }
+        #electoral-college-widget .map .block a.republican:hover, #electoral-college-widget .map .block a.republican.active {
+          background: #961515; }
+  #electoral-college-widget .state-selection {
+    width: 100%;
+    text-align: center; }
+    #electoral-college-widget .state-selection .message {
+      width: 100%;
+      text-align: center;
+      color: #333;
+      font-weight: 300;
+      text-transform: uppercase; }
+      #electoral-college-widget .state-selection .message i {
+        position: relative;
+        color: #BBB; }
+    #electoral-college-widget .state-selection button {
+      text-align: center;
+      font-weight: 300;
+      text-transform: uppercase;
+      background: #1a80c4;
+      color: #FFF;
+      cursor: pointer;
+      transition: background 0.25s ease-in-out; }
+      #electoral-college-widget .state-selection button:hover {
+        background: #12527d; }
+      #electoral-college-widget .state-selection button:active, #electoral-college-widget .state-selection button:focus {
+        background: #12527d;
+        outline: none; }
+      #electoral-college-widget .state-selection button i {
+        position: relative; }
+      #electoral-college-widget .state-selection button strong {
+        font-weight: 600; }
+  #electoral-college-widget .powered-by {
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    font-size: 0.75rem;
+    color: #BBB; }
+    #electoral-college-widget .powered-by a {
+      color: #999;
+      text-decoration: none; }
+      #electoral-college-widget .powered-by a:hover {
+        color: #000; }
+    #electoral-college-widget .powered-by span, #electoral-college-widget .powered-by a {
+      font-size: 0.75rem; }
+  #electoral-college-widget .add-to-site {
+    position: absolute;
+    bottom: 16px;
+    right: 20px;
+    font-size: 0.75rem;
+    color: #BBB;
+    text-decoration: none; }
+    #electoral-college-widget .add-to-site:hover {
+      color: #000; }
+
+#electoral-college-widget.xs .map {
+  padding: 10px 5px 5px 5px; }
+#electoral-college-widget.xs h1 {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 10px;
+  line-height: 0.9rem; }
+  #electoral-college-widget.xs h1 span {
+    display: none; }
+#electoral-college-widget.xs h2 {
+  font-size: 0.8rem;
+  width: 90%;
+  line-height: 0.9rem; }
+  #electoral-college-widget.xs h2 span {
+    display: none; }
+#electoral-college-widget.xs .map .block a {
+  font-size: 80%;
+  font-weight: 600;
+  padding-top: 8%; }
+#electoral-college-widget.xs .state-selection {
+  height: 24px;
+  margin-bottom: 45px; }
+  #electoral-college-widget.xs .state-selection .message {
+    height: 24px;
+    line-height: 30px;
+    font-size: 0.75rem;
+    letter-spacing: 0; }
+    #electoral-college-widget.xs .state-selection .message span, #electoral-college-widget.xs .state-selection .message i {
+      display: none; }
+  #electoral-college-widget.xs .state-selection button {
+    padding: 0 0 2px 6px;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    border: 2px solid #fbfbfb; }
+    #electoral-college-widget.xs .state-selection button:active, #electoral-college-widget.xs .state-selection button:focus {
+      border: 2px solid #bee1ed; }
+    #electoral-college-widget.xs .state-selection button span {
+      display: none; }
+    #electoral-college-widget.xs .state-selection button i {
+      top: 4px;
+      font-size: 1rem;
+      line-height: 0.8rem;
+      left: -2px; }
+#electoral-college-widget.xs .powered-by span {
+  display: none; }
+#electoral-college-widget.xs .add-to-site span {
+  display: none; }
+
+#electoral-college-widget.s .map {
+  padding: 15px 10px 10px 10px; }
+#electoral-college-widget.s h1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  margin-top: 20px; }
+#electoral-college-widget.s h2 {
+  font-size: 0.9rem;
+  width: 90%; }
+#electoral-college-widget.s .map .block a {
+  font-size: 90%;
+  font-weight: 600;
+  padding-top: 14%; }
+#electoral-college-widget.s .state-selection {
+  height: 24px;
+  margin-bottom: 45px; }
+  #electoral-college-widget.s .state-selection .message {
+    height: 24px;
+    line-height: 30px;
+    font-size: 0.9rem;
+    letter-spacing: 0; }
+    #electoral-college-widget.s .state-selection .message i {
+      line-height: 30px;
+      font-size: 0.9rem;
+      letter-spacing: 0;
+      top: 3px; }
+  #electoral-college-widget.s .state-selection button {
+    padding: 5px 6px 5px 8px;
+    font-size: 0.85rem;
+    letter-spacing: 0;
+    border: 4px solid #fbfbfb; }
+    #electoral-college-widget.s .state-selection button:active, #electoral-college-widget.s .state-selection button:focus {
+      border: 4px solid #bee1ed; }
+    #electoral-college-widget.s .state-selection button i {
+      top: 5px;
+      font-size: 1.2rem;
+      line-height: 0.8rem; }
+
+#electoral-college-widget.m .map {
+  padding: 15px 20px 10px 20px; }
+#electoral-college-widget.m h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  margin-top: 20px; }
+#electoral-college-widget.m h2 {
+  font-size: 0.9rem;
+  width: 90%; }
+#electoral-college-widget.m .map .block a {
+  font-size: 120%;
+  font-weight: 400;
+  padding-top: 14%; }
+#electoral-college-widget.m .state-selection {
+  height: 30px;
+  margin-bottom: 50px; }
+  #electoral-college-widget.m .state-selection .message {
+    height: 30px;
+    line-height: 40px;
+    font-size: 1.15rem;
+    letter-spacing: 0; }
+    #electoral-college-widget.m .state-selection .message i {
+      line-height: 40px;
+      font-size: 1rem;
+      letter-spacing: 0;
+      top: 3px; }
+  #electoral-college-widget.m .state-selection button {
+    padding: 7px 12px;
+    font-size: 1rem;
+    letter-spacing: 0;
+    border: 4px solid #fbfbfb; }
+    #electoral-college-widget.m .state-selection button:active, #electoral-college-widget.m .state-selection button:focus {
+      border: 4px solid #bee1ed; }
+    #electoral-college-widget.m .state-selection button i {
+      top: 5px;
+      font-size: 1.4rem;
+      line-height: 0.8rem; }
+
+#electoral-college-widget.l .map {
+  padding: 20px 30px 30px 30px; }
+#electoral-college-widget.l h1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+  margin-top: 30px; }
+#electoral-college-widget.l h2 {
+  font-size: 1rem;
+  width: 90%; }
+#electoral-college-widget.l .map .block a {
+  font-size: 140%;
+  font-weight: 300;
+  padding-top: 14%; }
+#electoral-college-widget.l .state-selection {
+  height: 40px;
+  margin-bottom: 44px; }
+  #electoral-college-widget.l .state-selection .message {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.25rem;
+    letter-spacing: 0.15rem; }
+    #electoral-college-widget.l .state-selection .message i {
+      line-height: 40px;
+      font-size: 1.25rem;
+      letter-spacing: 0.15rem;
+      top: 4px; }
+  #electoral-college-widget.l .state-selection button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    border: 4px solid #fbfbfb; }
+    #electoral-college-widget.l .state-selection button:active, #electoral-college-widget.l .state-selection button:focus {
+      border: 4px solid #bee1ed; }
+    #electoral-college-widget.l .state-selection button i {
+      top: 5px;
+      font-size: 1.4rem;
+      line-height: 0.8rem; }
+
+#electoral-college-widget.xl .map {
+  padding: 5px 30px 30px 30px; }
+#electoral-college-widget.xl h1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+  margin-top: 30px; }
+#electoral-college-widget.xl h2 {
+  font-size: 1rem;
+  width: 80%; }
+#electoral-college-widget.xl .map .block a {
+  font-size: 150%;
+  font-weight: 300;
+  padding-top: 15%; }
+#electoral-college-widget.xl .state-selection {
+  height: 40px;
+  margin-bottom: 44px; }
+  #electoral-college-widget.xl .state-selection .message {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.25rem;
+    letter-spacing: 0.15rem; }
+    #electoral-college-widget.xl .state-selection .message i {
+      line-height: 40px;
+      font-size: 1.25rem;
+      letter-spacing: 0.15rem;
+      top: 4px; }
+  #electoral-college-widget.xl .state-selection button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    border: 4px solid #fbfbfb; }
+    #electoral-college-widget.xl .state-selection button:active, #electoral-college-widget.xl .state-selection button:focus {
+      border: 4px solid #bee1ed; }
+    #electoral-college-widget.xl .state-selection button i {
+      top: 5px;
+      font-size: 1.4rem;
+      line-height: 0.8rem; }
+
+#electoral-college-widget.xxl .map {
+  padding: 10px 40px 40px 40px; }
+#electoral-college-widget.xxl h1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+  margin-top: 30px; }
+#electoral-college-widget.xxl h2 {
+  font-size: 1rem;
+  width: 80%; }
+#electoral-college-widget.xxl .map .block a {
+  font-size: 170%;
+  font-weight: 300;
+  padding-top: 19%; }
+#electoral-college-widget.xxl .state-selection {
+  height: 40px;
+  margin-bottom: 44px; }
+  #electoral-college-widget.xxl .state-selection .message {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem; }
+    #electoral-college-widget.xxl .state-selection .message i {
+      line-height: 40px;
+      font-size: 1.5rem;
+      letter-spacing: 0.25rem;
+      top: 4px; }
+  #electoral-college-widget.xxl .state-selection button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    border: 4px solid #fbfbfb; }
+    #electoral-college-widget.xxl .state-selection button:active, #electoral-college-widget.xxl .state-selection button:focus {
+      border: 4px solid #bee1ed; }
+    #electoral-college-widget.xxl .state-selection button i {
+      top: 5px;
+      font-size: 1.4rem;
+      line-height: 0.8rem; }

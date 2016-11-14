@@ -41,7 +41,7 @@ https://electoral-college.joincampaignzero.org/widget.js
 For browsers that let you use iFrames, you can also use:
 
 ```
-<iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" border="0"></iframe>
+<iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="600" height="630" frameborder="0" ></iframe>
 ```
 
 Demos

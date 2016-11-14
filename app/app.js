@@ -84,7 +84,7 @@ var appWidget = {
 
               // Setup Click Tracking
               jQuery('a.email', $li).off('click.widget');
-              jQuery('a.email', $li).on('click.widget', function() {
+              jQuery('a.email', $li).on('click.widget', function () {
                 appWidget.trackEvent('Nav', 'Elector Emailed Name', elector);
                 appWidget.trackEvent('Nav', 'Elector Emailed State', state);
               });
@@ -100,7 +100,7 @@ var appWidget = {
 
               // Setup Click Tracking
               jQuery('a.phone', $li).off('click.widget');
-              jQuery('a.phone', $li).on('click.widget', function() {
+              jQuery('a.phone', $li).on('click.widget', function () {
                 appWidget.trackEvent('Nav', 'Elector Called Name', elector);
                 appWidget.trackEvent('Nav', 'Elector Called State', state);
               });
@@ -115,7 +115,7 @@ var appWidget = {
 
               // Setup Click Tracking
               jQuery('a.twitter', $li).off('click.widget');
-              jQuery('a.twitter', $li).on('click.widget', function() {
+              jQuery('a.twitter', $li).on('click.widget', function () {
                 appWidget.trackEvent('Nav', 'Elector Twitter Viewed Name', elector);
                 appWidget.trackEvent('Nav', 'Elector Twitter Viewed State', state);
               });
@@ -130,7 +130,7 @@ var appWidget = {
 
               // Setup Click Tracking
               jQuery('a.facebook', $li).off('click.widget');
-              jQuery('a.facebook', $li).on('click.widget', function() {
+              jQuery('a.facebook', $li).on('click.widget', function () {
                 appWidget.trackEvent('Nav', 'Elector Facebook Viewed Name', elector);
                 appWidget.trackEvent('Nav', 'Elector Facebook Viewed State', state);
               });
@@ -145,7 +145,7 @@ var appWidget = {
 
               // Setup Click Tracking
               jQuery('a.address', $li).off('click.widget');
-              jQuery('a.address', $li).on('click.widget', function() {
+              jQuery('a.address', $li).on('click.widget', function () {
                 appWidget.trackEvent('Nav', 'Elector Address Viewed Name', elector);
                 appWidget.trackEvent('Nav', 'Elector Address Viewed State', state);
               });
@@ -160,11 +160,12 @@ var appWidget = {
 
             // Setup Click Tracking for Toggle
             jQuery('.toggle, .content', $li).off('click.widget');
-            jQuery('.toggle, .content', $li).on('click.widget', function () {
+            jQuery('.toggle, .content', $li).on('click.widget', function (event) {
               jQuery('.elector-wrapper').not(jQuery(this).closest('.elector-wrapper')).removeClass('open').addClass('closed');
               jQuery(this).closest('.elector-wrapper').toggleClass('open').toggleClass('closed');
 
               appWidget.trackEvent('Nav', 'Elector Toggled Name', elector);
+              event.preventDefault();
             });
           }
         }
@@ -202,7 +203,7 @@ var appWidget = {
     jQuery(elm).load(appWidget.settings.base + 'template/map.html', function () {
 
       jQuery('a.state', elm).off('click.widget');
-      jQuery('a.state', elm).click('click.widget', function () {
+      jQuery('a.state', elm).click('click.widget', function (event) {
         var code = $(this).data('code');
         var state = $(this).data('state');
         var party = $(this).data('party');
@@ -228,10 +229,13 @@ var appWidget = {
           jQuery('.state-selection', elm).html('<button id="state-button" class="animated fadeIn"><span>View </span><strong>' + state + '</strong> Electors <i class="material-icons">keyboard_arrow_right</i></button>');
 
           jQuery('#state-button', elm).off('click.widget');
-          jQuery('#state-button', elm).on('click.widget', function () {
+          jQuery('#state-button', elm).on('click.widget', function (event) {
             appWidget.showModal(state, code, appWidget.electoralCollege);
+            event.preventDefault();
           });
         }
+
+        event.preventDefault();
       });
     });
 

@@ -40,8 +40,40 @@ https://electoral-college.joincampaignzero.org/widget.js
 
 For browsers that let you use iFrames, you can also use:
 
+#### XS Widget:
+
+```html
+<iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="300" height="375" frameborder="0"></iframe>
+```
+
+#### S Widget:
+
+```html
+<iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="400" height="480" frameborder="0"></iframe>
+```
+
+#### M Widget:
+
+```html
+<iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="500" height="530" frameborder="0"></iframe>
+```
+
+#### L Widget:
+
 ```html
 <iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="600" height="630" frameborder="0" ></iframe>
+```
+
+#### XL Widget:
+
+```html
+<iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="700" height="690" frameborder="0"></iframe>
+```
+
+#### XXL Widget:
+
+```html
+<iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="800" height="755" frameborder="0"></iframe>
 ```
 
 Demo

@@ -44,7 +44,7 @@ For browsers that let you use iFrames, you can also use:
 <iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="600" height="630" frameborder="0" ></iframe>
 ```
 
-Demos
+Demo
 ---
 
-* [DEMO](https://electoral-college.joincampaignzero.org/embed.html): Widget using just the script tag
+* [Electoral College Widget Demo](https://electoral-college.joincampaignzero.org/embed.html): Widget using Script Tag with Custom HTML Element Placement

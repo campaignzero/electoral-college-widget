@@ -103,7 +103,7 @@
     var assets = (scriptTag.src && scriptTag.src === 'https://electoral-college.joincampaignzero.org/widget.js') ? pathCDN : pathLocal;
 
     // load widget css before DOM ready
-    loadCss(assets + 'style.css?v=' + version, function(){
+    loadCss(assets + 'style.css?ver=' + version, function(){
       loadedCSS = true;
       if(typeof appWidget !== 'undefined' && loadedCSS && loadedJS){
         appWidget.init();
@@ -170,7 +170,7 @@
         });
 
         // load widgets main app's script file
-        loadScript(assets + 'app.js?v=' + version, function(){
+        loadScript(assets + 'app.js?ver=' + version, function(){
           loadedJS = true;
           if(typeof appWidget !== 'undefined' && loadedCSS && loadedJS){
             appWidget.init();

@@ -3,7 +3,9 @@
 Electoral College Widget
 ===
 
-![Demo](http://i.imgur.com/lpZ648g.gif "Demo")
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/campaignzero/electoral-college-widget/master/LICENSE)  [![GitHub contributors](https://img.shields.io/github/contributors/campaignzero/electoral-college-widget.svg)](https://github.com/campaignzero/electoral-college-widget/graphs/contributors)
+
+![Demo](http://i.imgur.com/pGJAW1X.gif "Demo")
 
 Usage Instructions
 ---

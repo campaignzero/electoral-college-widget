@@ -1,9 +1,9 @@
 /* Import CSS Files */
-@import url(reset.css);
-@import url(animate.css);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
+@import url("reset.css");
+@import url("animate.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css");
 
 /* MAIN WIDGET STYLES */
 
@@ -296,15 +296,16 @@
         transition: all 0.25s ease-in-out;
 
         &.democrat-light {
-          background: #bee1ed;
-          color: #1a80c4;
+          background: #e0e0e0;
+          color: #888;
+          cursor: default;
         }
 
         &.democrat,
         &.democrat-light:hover,
         &.democrat-light.active {
-          background: #1a80c4;
-          color: #FFF;
+          background: #e0e0e0;
+          color: #888;
         }
 
         &.republican {
@@ -328,7 +329,7 @@
       width: 100%;
       text-align: center;
       color: #333;
-      font-weight: 300;
+      font-weight: 400;
       text-transform: uppercase;
 
       i {

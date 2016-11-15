@@ -79,7 +79,7 @@ var appWidget = {
             // Setup Email
             if (ec[i].email !== '') {
               var subject = encodeURIComponent('Secretary Clinton WON THE POPULAR VOTE and should be President.');
-              var body = encodeURIComponent('Dear ' + elector + ',\n\nOn December 19, the Electors of the Electoral College will cast their ballots. If they all vote the way their states voted, Donald Trump will win. However, they can vote for Hillary Clinton if they choose. Even in states where that is not allowed, their vote would still be counted, they would simply pay a small fine - which we can be sure Clinton supporters will be glad to pay!\n\nWe are calling on the Electors to ignore their states\' votes and cast their ballots for Secretary Clinton. Why?\n\nMr. Trump is unfit to serve. His scapegoating of so many Americans, and his impulsivity, bullying, lying, admitted history of sexual assault, and utter lack of experience make him a danger to the Republic.\n\nSecretary Clinton WON THE POPULAR VOTE and should be President.\n\nHillary won the popular vote. The only reason Trump "won" is because of the Electoral College.\n\nBut the Electoral College can actually give the White House to either candidate. So why not use this most undemocratic of our institutions to ensure a democratic result?\n\nSHE WON THE POPULAR VOTE.\n\nThere is no reason Trump should be President.\n\n"It\'s the \'People\'s Will\'"\n\nNo. She won the popular vote.\n\n"Our system of government under our Constitution says he wins"\n\nNo. Our Constitution says the Electors choose.\n\n"Too many states prohibit \'Faithless Electors\'"\n\n24 states bind electors. If electors vote against their party, they usually pay a fine. And people get mad. But they can vote however they want and there is no legal means to stop them in most states.\n\n- Signed, a Concerned U.S. Citizen');
+              var body = encodeURIComponent('Dear ' + elector + ',\n\nOn December 19, you and the other Electors will cast your ballots to elect a President. If you all vote the way your states voted, Donald Trump will win. However, you can vote for Hillary Clinton if you choose. Even in states that issue a small fine for voting this way, your vote would still be counted, and the fine would almost certainly be offset by support from Clinton supporters.\n\nTherefore, I urge you to exercise your Constitutional right to cast your ballot for Secretary Clinton. Mr. Trump is unfit to serve. His scapegoating of so many Americans, and his impulsivity, bullying, lying, admitted history of sexual assault, and utter lack of experience make him a danger to the Republic.\n\nSecretary Clinton won the popular vote - by nearly 2 million votes - and should be President. The only reason Trump "won" is because of the Electoral College. But electing Trump is not consistent with the Founder\'s intentions when they created the Electoral College. The Electoral College was created, in the words of Alexander Hamilton, to prevent the Presidency from falling to "any man who is not in an eminent degree endowed with the requisite qualifications." This is the moment where you were meant to lead.\n\nIf 38 of Trump\'s 306 electors vote Clinton, she\'ll become President. You are the last check in a system perilously close to making a tyrant the President. I urge you to honor the will of the majority of voters and vote to elect Hillary Clinton President. Our nation depends on it.\n\nSigned,\n\n- A Concerned Citizen');
               jQuery('a.email', $li).attr('href', 'mailto:' + ec[i].email + '?subject=' + subject + '&body=' + body);
 
               // Setup Click Tracking
@@ -213,7 +213,7 @@ var appWidget = {
 
         if (state === lastState) {
           lastState = '';
-          jQuery('.state-selection', elm).html('<div class="message animated fadeIn"><i class="material-icons animated fadeInUp">keyboard_arrow_up</i> Select a State to Get Started <i class="material-icons animated fadeInUp">keyboard_arrow_up</i></div>');
+          jQuery('.state-selection', elm).html('<div class="message animated slideInUp"><i class="material-icons animated fadeInUp">keyboard_arrow_up</i> Select a State to Get Started <i class="material-icons animated fadeInUp">keyboard_arrow_up</i></div>');
           return false;
         }
 
@@ -227,7 +227,7 @@ var appWidget = {
         if (party === 'democrat') {
           jQuery('.state-selection', elm).html('<div class="message animated fadeIn"><i class="material-icons">thumb_up</i> ' + state + ' voted for Clinton</div>');
         } else {
-          jQuery('.state-selection', elm).html('<button id="state-button" class="animated fadeIn"><span>View </span><strong>' + state + '</strong> Electors <i class="material-icons">keyboard_arrow_right</i></button>');
+          jQuery('.state-selection', elm).html('<button id="state-button" class="animated fadeInUp"><span>View </span><strong>' + state + '</strong> Electors <i class="material-icons">keyboard_arrow_right</i></button>');
 
           jQuery('#state-button', elm).off('click.widget');
           jQuery('#state-button', elm).on('click.widget', function (event) {

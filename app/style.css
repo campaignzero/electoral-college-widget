@@ -1,9 +1,9 @@
 /* Import CSS Files */
-@import url(reset.css);
-@import url(animate.css);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
+@import url("reset.css");
+@import url("animate.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css");
 /* MAIN WIDGET STYLES */
 #electoral-college-widget {
   box-sizing: border-box;
@@ -218,11 +218,12 @@
         color: #666;
         transition: all 0.25s ease-in-out; }
         #electoral-college-widget .map .block a.democrat-light {
-          background: #bee1ed;
-          color: #1a80c4; }
+          background: #e0e0e0;
+          color: #888;
+          cursor: default; }
         #electoral-college-widget .map .block a.democrat, #electoral-college-widget .map .block a.democrat-light:hover, #electoral-college-widget .map .block a.democrat-light.active {
-          background: #1a80c4;
-          color: #FFF; }
+          background: #e0e0e0;
+          color: #888; }
         #electoral-college-widget .map .block a.republican {
           background: #cc3d3d;
           color: #FFF; }
@@ -235,7 +236,7 @@
       width: 100%;
       text-align: center;
       color: #333;
-      font-weight: 300;
+      font-weight: 400;
       text-transform: uppercase; }
       #electoral-college-widget .state-selection .message i {
         position: relative;

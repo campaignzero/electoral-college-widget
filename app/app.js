@@ -49,6 +49,11 @@ var appWidget = {
     if (width > 700) {
       elm.addClass('xxl');
     }
+
+    // Firefox fix for figuring out row height of states based on
+    // first states width ( height won't work, but its a square, so use width )
+    var rowHeight = jQuery('a.state:first-child()', elm).width();
+    jQuery('.row', elm).height(rowHeight);
   },
 
   /**
@@ -124,7 +129,7 @@ var appWidget = {
               jQuery('a.twitter', $li).attr('disabled', 'disabled').addClass('disabled');
             }
 
-            // Setup Twitter
+            // Setup Facebook
             if (ec[i].facebook !== '') {
               jQuery('a.facebook', $li).attr('href', ec[i].facebook);
 
@@ -137,21 +142,6 @@ var appWidget = {
             } else {
               jQuery('a.facebook', $li).attr('href', 'javascript:void(0)');
               jQuery('a.facebook', $li).attr('disabled', 'disabled').addClass('disabled');
-            }
-
-            // Setup Twitter
-            if (ec[i].address !== '') {
-              jQuery('a.address', $li).attr('href', 'https://maps.google.com/maps?q=' + encodeURIComponent(ec[i].address));
-
-              // Setup Click Tracking
-              jQuery('a.address', $li).off('click.widget');
-              jQuery('a.address', $li).on('click.widget', function () {
-                appWidget.trackEvent('Nav', 'Elector Address Viewed Name', elector);
-                appWidget.trackEvent('Nav', 'Elector Address Viewed State', state);
-              });
-            } else {
-              jQuery('a.address', $li).attr('href', 'javascript:void(0)');
-              jQuery('a.address', $li).attr('disabled', 'disabled').addClass('disabled');
             }
 
             jQuery('.elector', $li).html(elector);
@@ -243,7 +233,8 @@ var appWidget = {
     appWidget.resize();
 
     setTimeout(function(){
-      jQuery('.wrapper', elm).show();
+      jQuery('.wrapper', elm).fadeIn();
+      appWidget.resize();
     }, 200);
   }
 };

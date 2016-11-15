@@ -7,6 +7,13 @@ Electoral College Widget
 
 ![Demo](http://i.imgur.com/pGJAW1X.gif "Demo")
 
+
+Demo
+---
+
+* [Electoral College Widget Demo](https://electoral-college.joincampaignzero.org/embed.html): Widget using Script Tag with Custom HTML Element Placement
+
+
 Usage Instructions
 ---
 
@@ -77,8 +84,3 @@ For browsers that let you use iFrames, you can also use:
 ```html
 <iframe src="https://electoral-college.joincampaignzero.org/embed.html" id="electoral-college" width="800" height="755" frameborder="0"></iframe>
 ```
-
-Demo
----
-
-* [Electoral College Widget Demo](https://electoral-college.joincampaignzero.org/embed.html): Widget using Script Tag with Custom HTML Element Placement

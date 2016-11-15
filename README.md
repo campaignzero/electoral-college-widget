@@ -8,7 +8,7 @@ Electoral College Widget
 ![Demo](http://i.imgur.com/pGJAW1X.gif "Demo")
 
 
-Demo
+Widget Demo
 ---
 
 * [Electoral College Widget Demo](https://electoral-college.joincampaignzero.org/embed.html): Widget using Script Tag with Custom HTML Element Placement

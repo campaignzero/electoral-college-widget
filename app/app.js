@@ -188,6 +188,7 @@ var appWidget = {
   init: function(){
     var elm = jQuery('#' + this.elementName);
     var lastState = '';
+    var timer;
 
     jQuery.getJSON(appWidget.settings.base + 'data/electoral-college.json', function(data) {
       appWidget.electoralCollege = data;
@@ -218,6 +219,11 @@ var appWidget = {
 
         if (party === 'democrat') {
           jQuery('.state-selection', elm).html('<div class="message animated fadeIn"><i class="material-icons">thumb_up</i> ' + state + ' voted for Clinton</div>');
+
+          clearTimeout(timer);
+          timer = setTimeout(function (){
+            jQuery('.state-selection', elm).html('<div class="message animated fadeIn"><i class="material-icons">keyboard_arrow_up</i> Select a State to Get Started <i class="material-icons">keyboard_arrow_up</i></div>');
+          }, 5000);
         } else {
           if (elm.width() <= 420) {
             jQuery('.state-selection', elm).html('<button id="state-button" class="animated fadeInUp"><span>View </span><strong>' + state + '</strong> Electors <i class="material-icons">keyboard_arrow_right</i></button>');

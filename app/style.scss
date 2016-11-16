@@ -21,6 +21,7 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  font-size: 14px;
 
   & *, & *:before, & *:after {
     box-sizing: inherit;
@@ -76,15 +77,13 @@
 
       a {
         width: 60px;
-        height: 60px;
+        height: 55px;
         color: #666;
         text-decoration: none;
         display: block;
         line-height: 56px;
         text-align: center;
         font-size: 24px;
-        border-radius: 0 0 50% 50%;
-        background: rgba(255, 255, 255, 0.75);
 
         &:hover {
           color: #333;

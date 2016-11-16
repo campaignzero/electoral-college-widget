@@ -115,7 +115,7 @@
 
       var resizeHandeler = debounce(function() {
         appWidget.resize();
-      }, 100);
+      }, 25);
 
       window.addEventListener('resize', resizeHandeler);
 

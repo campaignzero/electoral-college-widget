@@ -144,8 +144,10 @@ var appWidget = {
               jQuery('a.facebook', $li).attr('disabled', 'disabled').addClass('disabled');
             }
 
+            var h1Label = (elm.width() <= 420) ? code : state;
+
             jQuery('.elector', $li).html(elector);
-            jQuery('.modal-content h1', elm).html(state);
+            jQuery('.modal-content h1', elm).html(h1Label + ' Electors');
             jQuery('.modal-content ul', elm).append($li);
 
             // Setup Click Tracking for Toggle
@@ -217,13 +219,17 @@ var appWidget = {
         if (party === 'democrat') {
           jQuery('.state-selection', elm).html('<div class="message animated fadeIn"><i class="material-icons">thumb_up</i> ' + state + ' voted for Clinton</div>');
         } else {
-          jQuery('.state-selection', elm).html('<button id="state-button" class="animated fadeInUp"><span>View </span><strong>' + state + '</strong> Electors <i class="material-icons">keyboard_arrow_right</i></button>');
+          if (elm.width() <= 420) {
+            jQuery('.state-selection', elm).html('<button id="state-button" class="animated fadeInUp"><span>View </span><strong>' + state + '</strong> Electors <i class="material-icons">keyboard_arrow_right</i></button>');
 
-          jQuery('#state-button', elm).off('click.widget');
-          jQuery('#state-button', elm).on('click.widget', function (event) {
+            jQuery('#state-button', elm).off('click.widget');
+            jQuery('#state-button', elm).on('click.widget', function (event) {
+              appWidget.showModal(state, code, appWidget.electoralCollege);
+              event.preventDefault();
+            });
+          } else {
             appWidget.showModal(state, code, appWidget.electoralCollege);
-            event.preventDefault();
-          });
+          }
         }
 
         event.preventDefault();
@@ -233,8 +239,8 @@ var appWidget = {
     appWidget.resize();
 
     setTimeout(function(){
-      jQuery('.wrapper', elm).fadeIn();
+      jQuery('.wrapper', elm).show();
       appWidget.resize();
-    }, 200);
+    }, 50);
   }
 };

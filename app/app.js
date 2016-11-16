@@ -64,7 +64,7 @@ var appWidget = {
   showModal: function (state, code, ec) {
     var elm = jQuery('#' + this.elementName);
 
-    appWidget.trackEvent('Nav', 'Modal Opened', state);
+    appWidget.trackEvent('EC Widget', 'Modal Opened', state);
 
     if (ec.length > 0) {
       var $template = $('<div>');
@@ -90,8 +90,8 @@ var appWidget = {
               // Setup Click Tracking
               jQuery('a.email', $li).off('click.widget');
               jQuery('a.email', $li).on('click.widget', function () {
-                appWidget.trackEvent('Nav', 'Elector Emailed Name', elector);
-                appWidget.trackEvent('Nav', 'Elector Emailed State', state);
+                appWidget.trackEvent('EC Widget', 'Elector Emailed Name', elector);
+                appWidget.trackEvent('EC Widget', 'Elector Emailed State', state);
               });
             } else {
               jQuery('a.email', $li).attr('href', 'javascript:void(0)');
@@ -106,8 +106,8 @@ var appWidget = {
               // Setup Click Tracking
               jQuery('a.phone', $li).off('click.widget');
               jQuery('a.phone', $li).on('click.widget', function () {
-                appWidget.trackEvent('Nav', 'Elector Called Name', elector);
-                appWidget.trackEvent('Nav', 'Elector Called State', state);
+                appWidget.trackEvent('EC Widget', 'Elector Called Name', elector);
+                appWidget.trackEvent('EC Widget', 'Elector Called State', state);
               });
             } else {
               jQuery('a.phone', $li).attr('href', 'javascript:void(0)');
@@ -121,8 +121,8 @@ var appWidget = {
               // Setup Click Tracking
               jQuery('a.twitter', $li).off('click.widget');
               jQuery('a.twitter', $li).on('click.widget', function () {
-                appWidget.trackEvent('Nav', 'Elector Twitter Viewed Name', elector);
-                appWidget.trackEvent('Nav', 'Elector Twitter Viewed State', state);
+                appWidget.trackEvent('EC Widget', 'Elector Twitter Viewed Name', elector);
+                appWidget.trackEvent('EC Widget', 'Elector Twitter Viewed State', state);
               });
             } else {
               jQuery('a.twitter', $li).attr('href', 'javascript:void(0)');
@@ -136,8 +136,8 @@ var appWidget = {
               // Setup Click Tracking
               jQuery('a.facebook', $li).off('click.widget');
               jQuery('a.facebook', $li).on('click.widget', function () {
-                appWidget.trackEvent('Nav', 'Elector Facebook Viewed Name', elector);
-                appWidget.trackEvent('Nav', 'Elector Facebook Viewed State', state);
+                appWidget.trackEvent('EC Widget', 'Elector Facebook Viewed Name', elector);
+                appWidget.trackEvent('EC Widget', 'Elector Facebook Viewed State', state);
               });
             } else {
               jQuery('a.facebook', $li).attr('href', 'javascript:void(0)');
@@ -156,7 +156,7 @@ var appWidget = {
               jQuery('.elector-wrapper').not(jQuery(this).closest('.elector-wrapper')).removeClass('open').addClass('closed');
               jQuery(this).closest('.elector-wrapper').toggleClass('open').toggleClass('closed');
 
-              appWidget.trackEvent('Nav', 'Elector Toggled Name', elector);
+              appWidget.trackEvent('EC Widget', 'Elector Toggled Name', elector);
               event.preventDefault();
             });
           }
@@ -179,7 +179,7 @@ var appWidget = {
     var elm = jQuery('#' + this.elementName);
     jQuery('.modal', elm).hide();
     jQuery('.modal-content', elm).html('<h1 class="modal-header"></h1><ul class="electors"></ul>');
-    appWidget.trackEvent('Nav', 'Modal Closed', state);
+    appWidget.trackEvent('EC Widget', 'Modal Closed', state);
   },
 
   /**
@@ -214,8 +214,8 @@ var appWidget = {
 
         jQuery(this).addClass('active');
 
-        appWidget.trackEvent('Nav', 'State Clicked', state);
-        appWidget.trackEvent('Nav', 'Party Clicked', party);
+        appWidget.trackEvent('EC Widget', 'State Clicked', state);
+        appWidget.trackEvent('EC Widget', 'Party Clicked', party);
 
         if (party === 'democrat') {
           jQuery('.state-selection', elm).html('<div class="message animated fadeIn"><i class="material-icons">thumb_up</i> ' + state + ' voted for Clinton</div>');

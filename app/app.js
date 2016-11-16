@@ -246,7 +246,7 @@ var appWidget = {
 
     setTimeout(function(){
       jQuery('.wrapper', elm).show();
-      setTimeout(appWidget.resize(), 50);
+      setTimeout(appWidget.resize(), 100);
     }, 50);
   }
 };

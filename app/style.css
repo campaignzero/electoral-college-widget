@@ -11,7 +11,7 @@
   min-width: 260px;
   max-width: 800px;
   border: 1px solid #e3e3e3;
-  background-color: #fbfbfb;
+  background-color: #FAFAFA;
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -205,7 +205,7 @@
       width: calc(100% / 12);
       padding-bottom: calc((100% / 12) - 4px);
       overflow: hidden;
-      border: 1px solid #fbfbfb; }
+      border: 1px solid #FAFAFA; }
       #electoral-college-widget .map .block.empty {
         background: none; }
       #electoral-college-widget .map .block a {
@@ -316,7 +316,7 @@
     padding: 0 0 2px 6px;
     font-size: 12px;
     letter-spacing: 0;
-    border: 2px solid #fbfbfb; }
+    border: 2px solid #FAFAFA; }
     #electoral-college-widget.xs .state-selection button:active, #electoral-college-widget.xs .state-selection button:focus {
       border: 2px solid #bee1ed; }
     #electoral-college-widget.xs .state-selection button span {
@@ -363,7 +363,7 @@
     padding: 5px 6px 5px 8px;
     font-size: 14px;
     letter-spacing: 0;
-    border: 4px solid #fbfbfb; }
+    border: 4px solid #FAFAFA; }
     #electoral-college-widget.s .state-selection button:active, #electoral-college-widget.s .state-selection button:focus {
       border: 4px solid #bee1ed; }
     #electoral-college-widget.s .state-selection button i {
@@ -402,7 +402,7 @@
     padding: 7px 12px;
     font-size: 16px;
     letter-spacing: 0;
-    border: 4px solid #fbfbfb; }
+    border: 4px solid #FAFAFA; }
     #electoral-college-widget.m .state-selection button:active, #electoral-college-widget.m .state-selection button:focus {
       border: 4px solid #bee1ed; }
     #electoral-college-widget.m .state-selection button i {
@@ -441,7 +441,7 @@
     padding: 10px 30px;
     font-size: 16px;
     letter-spacing: 3px;
-    border: 4px solid #fbfbfb; }
+    border: 4px solid #FAFAFA; }
     #electoral-college-widget.l .state-selection button:active, #electoral-college-widget.l .state-selection button:focus {
       border: 4px solid #bee1ed; }
     #electoral-college-widget.l .state-selection button i {
@@ -480,7 +480,7 @@
     padding: 10px 30px;
     font-size: 16px;
     letter-spacing: 3px;
-    border: 4px solid #fbfbfb; }
+    border: 4px solid #FAFAFA; }
     #electoral-college-widget.xl .state-selection button:active, #electoral-college-widget.xl .state-selection button:focus {
       border: 4px solid #bee1ed; }
     #electoral-college-widget.xl .state-selection button i {
@@ -519,7 +519,7 @@
     padding: 10px 30px;
     font-size: 16px;
     letter-spacing: 3px;
-    border: 4px solid #fbfbfb; }
+    border: 4px solid #FAFAFA; }
     #electoral-college-widget.xxl .state-selection button:active, #electoral-college-widget.xxl .state-selection button:focus {
       border: 4px solid #bee1ed; }
     #electoral-college-widget.xxl .state-selection button i {

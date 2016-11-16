@@ -190,7 +190,7 @@
               cursor: pointer;
 
               .elector {
-                letter-spacing: 0.1rem;
+                letter-spacing: 2px;
                 -ms-text-overflow: ellipsis;
                 text-overflow: ellipsis;
                 width: 100%;
@@ -370,7 +370,7 @@
     position: absolute;
     bottom: 16px;
     left: 20px;
-    font-size: 0.75rem;
+    font-size: 12px;
     color: #BBB;
 
     a {
@@ -383,7 +383,7 @@
     }
 
     span, a {
-      font-size: 0.75rem;
+      font-size: 12px;
     }
   }
 
@@ -391,7 +391,7 @@
     position: absolute;
     bottom: 16px;
     right: 20px;
-    font-size: 0.75rem;
+    font-size: 12px;
     color: #BBB;
     text-decoration: none;
 
@@ -406,20 +406,20 @@
     padding: 10px 5px 5px 5px;
   }
   h1 {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0;
     margin-top: 10px;
-    line-height: 0.9rem;
+    line-height: 15px;
 
     span {
       display: none;
     }
   }
   h2 {
-    font-size: 0.8rem;
+    font-size: 13px;
     width: 90%;
-    line-height: 0.9rem;
+    line-height: 15px;
 
     span {
       display: none;
@@ -441,7 +441,7 @@
     .message {
       height: 24px;
       line-height: 30px;
-      font-size: 0.75rem;
+      font-size: 12px;
       letter-spacing: 0;
 
       span, i {
@@ -451,7 +451,7 @@
 
     button {
       padding: 0 0 2px 6px;
-      font-size: 0.75rem;
+      font-size: 12px;
       letter-spacing: 0;
       border: 2px solid #fbfbfb;
 
@@ -465,8 +465,8 @@
 
       i {
         top: 4px;
-        font-size: 1rem;
-        line-height: 0.8rem;
+        font-size: 16px;
+        line-height: 13px;
         left: -2px;
       }
     }
@@ -487,14 +487,15 @@
     padding: 15px 10px 10px 10px;
   }
   h1 {
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 400;
-    letter-spacing: 0.15rem;
+    letter-spacing: 2px;
     margin-top: 20px;
   }
   h2 {
-    font-size: 0.9rem;
+    font-size: 15px;
     width: 90%;
+    line-height: 15px;
   }
   .map {
     .block {
@@ -512,12 +513,12 @@
     .message {
       height: 24px;
       line-height: 30px;
-      font-size: 0.9rem;
+      font-size: 15px;
       letter-spacing: 0;
 
       i {
         line-height: 30px;
-        font-size: 0.9rem;
+        font-size: 15px;
         letter-spacing: 0;
         top: 3px;
       }
@@ -525,7 +526,7 @@
 
     button {
       padding: 5px 6px 5px 8px;
-      font-size: 0.85rem;
+      font-size: 14px;
       letter-spacing: 0;
       border: 4px solid #fbfbfb;
 
@@ -535,8 +536,8 @@
 
       i {
         top: 5px;
-        font-size: 1.2rem;
-        line-height: 0.8rem;
+        font-size: 20px;
+        line-height: 13px;
       }
     }
   }
@@ -546,13 +547,13 @@
     padding: 15px 20px 10px 20px;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
-    letter-spacing: 0.15rem;
+    letter-spacing: 3px;
     margin-top: 20px;
   }
   h2 {
-    font-size: 0.9rem;
+    font-size: 15px;
     width: 90%;
   }
   .map {
@@ -571,12 +572,12 @@
     .message {
       height: 30px;
       line-height: 40px;
-      font-size: 1.15rem;
+      font-size: 18px;
       letter-spacing: 0;
 
       i {
         line-height: 40px;
-        font-size: 1rem;
+        font-size: 16px;
         letter-spacing: 0;
         top: 3px;
       }
@@ -584,7 +585,7 @@
 
     button {
       padding: 7px 12px;
-      font-size: 1rem;
+      font-size: 16px;
       letter-spacing: 0;
       border: 4px solid #fbfbfb;
 
@@ -594,8 +595,8 @@
 
       i {
         top: 5px;
-        font-size: 1.4rem;
-        line-height: 0.8rem;
+        font-size: 22px;
+        line-height: 13px;
       }
     }
   }
@@ -605,13 +606,13 @@
     padding: 20px 30px 30px 30px;
   }
   h1 {
-    font-size: 1.75rem;
+    font-size: 28px;
     font-weight: 400;
-    letter-spacing: 0.25rem;
+    letter-spacing: 4px;
     margin-top: 30px;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 16px;
     width: 90%;
   }
   .map {
@@ -630,21 +631,21 @@
     .message {
       height: 40px;
       line-height: 40px;
-      font-size: 1.25rem;
-      letter-spacing: 0.15rem;
+      font-size: 20px;
+      letter-spacing: 3px;
 
       i {
         line-height: 40px;
-        font-size: 1.25rem;
-        letter-spacing: 0.15rem;
+        font-size: 20px;
+        letter-spacing: 3px;
         top: 4px;
       }
     }
 
     button {
       padding: 10px 30px;
-      font-size: 1rem;
-      letter-spacing: 0.15rem;
+      font-size: 16px;
+      letter-spacing: 3px;
       border: 4px solid #fbfbfb;
 
       &:active, &:focus {
@@ -653,8 +654,8 @@
 
       i {
         top: 5px;
-        font-size: 1.4rem;
-        line-height: 0.8rem;
+        font-size: 22px;
+        line-height: 13px;
       }
     }
   }
@@ -664,13 +665,13 @@
     padding: 5px 30px 30px 30px;
   }
   h1 {
-    font-size: 1.75rem;
+    font-size: 28px;
     font-weight: 400;
-    letter-spacing: 0.25rem;
+    letter-spacing: 4px;
     margin-top: 30px;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 16px;
     width: 80%;
   }
   .map {
@@ -689,21 +690,21 @@
     .message {
       height: 40px;
       line-height: 40px;
-      font-size: 1.25rem;
-      letter-spacing: 0.15rem;
+      font-size: 20px;
+      letter-spacing: 3px;
 
       i {
         line-height: 40px;
-        font-size: 1.25rem;
-        letter-spacing: 0.15rem;
+        font-size: 20px;
+        letter-spacing: 3px;
         top: 4px;
       }
     }
 
     button {
       padding: 10px 30px;
-      font-size: 1rem;
-      letter-spacing: 0.15rem;
+      font-size: 16px;
+      letter-spacing: 3px;
       border: 4px solid #fbfbfb;
 
       &:active, &:focus {
@@ -712,8 +713,8 @@
 
       i {
         top: 5px;
-        font-size: 1.4rem;
-        line-height: 0.8rem;
+        font-size: 22px;
+        line-height: 13px;
       }
     }
   }
@@ -723,13 +724,13 @@
     padding: 10px 40px 40px 40px;
   }
   h1 {
-    font-size: 1.75rem;
+    font-size: 28px;
     font-weight: 400;
-    letter-spacing: 0.25rem;
+    letter-spacing: 4px;
     margin-top: 30px;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 16px;
     width: 80%;
   }
   .map {
@@ -748,21 +749,21 @@
     .message {
       height: 40px;
       line-height: 40px;
-      font-size: 1.5rem;
-      letter-spacing: 0.25rem;
+      font-size: 24px;
+      letter-spacing: 4px;
 
       i {
         line-height: 40px;
-        font-size: 1.5rem;
-        letter-spacing: 0.25rem;
+        font-size: 24px;
+        letter-spacing: 4px;
         top: 4px;
       }
     }
 
     button {
       padding: 10px 30px;
-      font-size: 1rem;
-      letter-spacing: 0.15rem;
+      font-size: 16px;
+      letter-spacing: 3px;
       border: 4px solid #fbfbfb;
 
       &:active, &:focus {
@@ -771,8 +772,8 @@
 
       i {
         top: 5px;
-        font-size: 1.4rem;
-        line-height: 0.8rem;
+        font-size: 22px;
+        line-height: 13px;
       }
     }
   }

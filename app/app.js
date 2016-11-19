@@ -100,14 +100,21 @@ var appWidget = {
 
             // Setup Phone Number
             if (ec[i].phone !== '') {
-              jQuery('a.phone', $li).attr('href', 'tel:' + ec[i].phone);
-              jQuery('a.phone', $li).attr('onclick', 'return confirm("Would you like to Call ' + elector + ' at: ' + ec[i].phone + '")');
+              var phoneNumber = ec[i].phone;
+              jQuery('a.phone', $li).attr('href', 'tel:' + phoneNumber);
 
               // Setup Click Tracking
               jQuery('a.phone', $li).off('click.widget');
-              jQuery('a.phone', $li).on('click.widget', function () {
-                appWidget.trackEvent('EC Widget', 'Elector Called Name', elector);
-                appWidget.trackEvent('EC Widget', 'Elector Called State', state);
+              jQuery('a.phone', $li).on('click.widget', function (event) {
+
+                if(confirm('Would you like to Call ' + elector + ' at: ' + phoneNumber)) {
+                  alert('I\'m _____, calling to ask you to respect the will of the American people and cast your ballot for Hillary Clinton.\n\nAlready, Trump\'s team has announced plans to target millions of Americans because of who they are or what they look like.\n\nThe Founders gave the electoral college the power to stop tyrants like Trump.\n\nPlease use your power to protect us from harm.');
+
+                  appWidget.trackEvent('EC Widget', 'Elector Called Name', elector);
+                  appWidget.trackEvent('EC Widget', 'Elector Called State', state);
+                } else {
+                  event.preventDefault();
+                }
               });
             } else {
               jQuery('a.phone', $li).attr('href', 'javascript:void(0)');

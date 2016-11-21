@@ -1,0 +1,456 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font: 16px/28px 'Karla', sans-serif;
+  color: #888888;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #666666;
+  line-height: 36px;
+  margin: 0 0 16px 0;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  line-height: 24px;
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  color: #ec0044;
+  text-decoration: none;
+  line-height: 24px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.main-header {
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-header .top-bar {
+  background: rgba(0, 0, 0, 0.6);
+  line-height: 38px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.main-header .top-bar a {
+  color: #ffffff;
+}
+
+.main-header .top-email-info {
+  display: inline-block;
+}
+
+.main-header .top-donate-btn {
+  background: #ec0044;
+  color: #ffffff;
+  padding: 10px 16px;
+  font-size: 15px;
+  border: 0px solid #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.main-header .top-phone-no {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-header .top-bar i {
+  color: #ec0044;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+#btn, .btn {
+  text-align: center;
+  -webkit-transition: 0.3s 0.2s ease-out;
+  -moz-transition: 0.3s 0.2s ease-out;
+  -o-transition: 0.3s 0.2s ease-out;
+  transition: 0.3s 0.2s ease-out;
+}
+
+.navbar-default {
+  border: none;
+  background: transparent;
+  margin-bottom: 0;
+  padding: 12px 0;
+}
+
+.navbar-collapse {
+  border-top: none;
+}
+
+#slider_1 .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#slider_1 .slider-content {
+  position: absolute;
+  top: 53%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.cta-section-3 {
+  padding: 64px 0;
+  display: block;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  background: #ec0044;
+  background: -moz-linear-gradient(45deg, #ec0044 0%, #d7a900 100%);
+  background: -webkit-linear-gradient(45deg, #ec0044 0%, #d7a900 100%);
+  background: linear-gradient(45deg, #ec0044 0%, #d7a900 100%);
+}
+
+.cta-section-3 h2 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.cta-section-3 p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  color: #f2f2f2;
+}
+
+h2 + p {
+  margin-top: 12px;
+}
+
+p {
+  line-height: 24px;
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+* + p {
+  margin-top: 12px;
+}
+
+.cta-section-3 input {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  color: #222;
+  background: #ffffff;
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 10px;
+  text-indent: 10px;
+  border: 1px solid #FFF;
+}
+
+.cta-section-3 input:hover,
+.cta-section-3 input:focus {
+  outline: none;
+}
+
+.cta-section-3 button {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  color: #fff;
+  background: #222;
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.cta-section-3 button:hover,
+.cta-section-3 button:focus {
+  background: #000;
+  outline: none;
+  color: #fff;
+}
+
+.header-wrapper {
+  background: rgba(0,0,0,0.25);
+}
+.navbar-brand {
+  padding: 0 0 0 12px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #CCC;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FFF;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #FFFFFF;
+  background-color: transparent;
+  outline: none;
+}
+
+footer {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+nav ul, nav li {
+  margin: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+.footer-contents {
+  background: #292929;
+  border-top: 1px solid #525252;
+  padding: 28px 0 20px 0;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.footer-nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+.ec-widget {
+  background: url(../images/background.jpg) center center no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  min-height: 100vh;
+}
+
+.ec-container {
+  margin: 0 auto;
+  padding-top: 17vh;
+}
+
+.navbar-toggle {
+  border: 0 solid transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-toggle:hover {
+  background-color: transparent !important;
+}
+
+.form-message {
+  color: #000;
+  font-weight: 700;
+}
+.form-message.text-danger {
+  color: #000;
+}
+
+#electoral-college-widget {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+#electoral-college-widget .block {
+  border: 1px solid transparent !important;
+  background: transparent !important;
+}
+
+#electoral-college-widget .state {
+  background: transparent !important;
+}
+
+#electoral-college-widget h1 {
+  color: #333 !important;
+}
+
+#electoral-college-widget .state.democrat-light {
+  background: #FFF !important;
+}
+
+#electoral-college-widget .state.democrat-light:hover {
+  background: #FFF !important;
+}
+
+#electoral-college-widget .state.republican {
+  background: #ec0044 !important;
+}
+
+#electoral-college-widget .state.republican:hover {
+  background: #880027 !important;
+}
+
+#electoral-college-widget .message,
+#electoral-college-widget h1 {
+  color: #FFF !important;
+}
+#electoral-college-widget h2 {
+  color: #CCC !important;
+}
+
+#electoral-college-widget h2 strong {
+  color: #FFF !important;
+}
+
+#electoral-college-widget .modal-header {
+  color: #ec0044 !important;
+}
+
+#electoral-college-widget .modal .modal-content .elector-wrapper .summary .content .details .elector {
+  color: #000 !important;
+}
+
+#electoral-college-widget #state-button {
+  padding-top: 0 !important;
+  border: none;
+}
+
+@media (max-width: 320px) {
+  .navbar-default .navbar-brand {
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .top-donation-btn-container {
+    padding: 0;
+    top: -1px;
+    position: absolute;
+    right: 0;
+  }
+  .main-header .top-donate-btn {
+    padding: 8px 16px;
+  }
+  .top-bar a span {
+    display: none;
+  }
+  .navbar-default {
+    background: rgba(0,0,0,0.25);
+    padding: 12px 0 0 0;
+  }
+  .navbar-collapse {
+    background-color: rgba(0,0,0,0.85);
+  }
+
+  #electoral-college-widget .powered-by,
+  #electoral-college-widget .add-to-site {
+    display: none !important;
+  }
+  #electoral-college-widget .state {
+    padding-top: 0 !important;
+  }
+
+  .signup-form {
+    margin-top: 40px;
+  }
+
+  .cta-section-3 .signup-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cta-section-3 button, .cta-section-3 input {
+    width: 90%;
+  }
+
+  .navbar-default .navbar-brand {
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-donation-btn-container {
+    padding: 0;
+    top: -1px;
+    position: absolute;
+    right: 0;
+  }
+  .main-header .top-donate-btn {
+    padding: 8px 16px;
+  }
+}

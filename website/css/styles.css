@@ -255,7 +255,7 @@ p {
   line-height: 50px;
   font-size: 26px;
   font-weight: 400;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 .navbar-default .navbar-brand:focus,
@@ -387,10 +387,15 @@ nav ul, nav li {
   border: none;
 }
 
+#electoral-college-widget.xs h1,
+#electoral-college-widget.s h1 {
+  letter-spacing: 1px;
+}
+
 @media (max-width: 320px) {
   .navbar-default .navbar-brand {
     font-size: 18px !important;
-    letter-spacing: 1px !important;
+    letter-spacing: 0 !important;
   }
 }
 

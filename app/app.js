@@ -6,6 +6,9 @@ var appWidget = {
   elementName: 'electoral-college-widget',
   electoralCollege: [],
   settings: window.ELECTORAL_COLLEGE_WIDGET,
+  maxResizeAttempts: 20,
+  currentResizeAttempt: 0,
+  resizeTimeout: null,
 
   /**
    * Track Event using Google Analytics
@@ -23,6 +26,8 @@ var appWidget = {
   resize: function() {
     var elm = jQuery('#' + this.elementName);
     var width = elm.width();
+
+    clearTimeout(appWidget.resizeTimeout);
 
     elm.removeClass('xs xs s m l xl xxl');
 
@@ -53,7 +58,19 @@ var appWidget = {
     // Firefox fix for figuring out row height of states based on
     // first states width ( height won't work, but its a square, so use width )
     var rowHeight = jQuery('a.state:first-child()', elm).width();
-    jQuery('.row', elm).height(rowHeight);
+
+    if (rowHeight > 0) {
+      jQuery('.row', elm).height(rowHeight);
+      appWidget.currentResizeAttempt = 0;
+    } else {
+      appWidget.currentResizeAttempt += 1;
+
+      if (appWidget.currentResizeAttempt <= appWidget.maxResizeAttempts) {
+        appWidget.resizeTimeout = setTimeout(function(){
+          appWidget.resize()
+        }, 100);
+      }
+    }
   },
 
   /**
@@ -263,7 +280,6 @@ var appWidget = {
 
     setTimeout(function(){
       jQuery('.wrapper', elm).show();
-      setTimeout(appWidget.resize(), 100);
     }, 50);
   }
 };

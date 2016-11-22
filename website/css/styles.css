@@ -392,6 +392,45 @@ nav ul, nav li {
   letter-spacing: 1px;
 }
 
+.social-share {
+  background-color: #222;
+  text-align: center;
+  height: 50px;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li {
+  display: inline;
+}
+
+ul.share-buttons li a {
+  display: inline-block;
+  color: #FFF;
+  font-size: 24px;
+  line-height: 50px;
+  width: 40px;
+  height: 50px;
+}
+
+ul.share-buttons li a:hover {
+  color: #ec0044;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 @media (max-width: 320px) {
   .navbar-default .navbar-brand {
     font-size: 18px !important;
@@ -399,7 +438,7 @@ nav ul, nav li {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 440px) {
   .top-donation-btn-container {
     padding: 0;
     top: -1px;

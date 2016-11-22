@@ -56,13 +56,6 @@
     (document.getElementsByTagName('head')[0] || document.documentElement).appendChild(link_tag);
   }
 
-  /** Check if jQuery is already on page, otherwise load it */
-  if (window.jQuery === undefined || window.jQuery.fn.jquery !== jqueryVersion) {
-    loadScript(jqueryPath, init);
-  } else {
-    init();
-  }
-
   /**
    * Debounce Resize
    * @param func
@@ -179,4 +172,13 @@
       });
     });
   }
+
+  /** Check if jQuery is already on page, otherwise load it */
+  window.onload = function () {
+    if (window.jQuery === undefined || window.jQuery.fn.jquery !== jqueryVersion) {
+      loadScript(jqueryPath, init);
+    } else {
+      init();
+    }
+  };
 })();

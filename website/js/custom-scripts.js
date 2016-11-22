@@ -53,17 +53,16 @@
 
     var $form = $('.signup-form');
     var $email = $('#mce-EMAIL');
+    var $phone = $('#mce-MMERGE1');
+    var $zipcode = $('#mce-MMERGE2');
     var $alert = $('.form-message');
 
     $email.on('keyup', function() {
-      console.log('email');
       $alert.removeClass('text-danger text-success').html('').hide();
     });
 
     if ($form.length > 0) {
-      console.log('form');
       $('button[type="submit"]', $form).on('click', function(event) {
-        console.log('submit');
         if (event) {
           event.preventDefault()
         }
@@ -76,15 +75,21 @@
     function validateInput($form) {
 
       var validEmail = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+      var validZipCode = /^([0-9]{5})$/i;
 
       $alert.removeClass('text-danger text-success').html('').hide();
 
-      if ($email.val() && validEmail.test($email.val())) {
-        return true
+      if ($email.val() === '' || !validEmail.test($email.val())) {
+        $alert.html('Please Enter a Valid Email Address').addClass('text-danger').fadeIn(500);
+        return false;
       }
 
-      $alert.html('Please Enter a Valid Email Address').addClass('text-danger').fadeIn(500);
-      return false
+      if ($zipcode.val() === '' || !validZipCode.test($zipcode.val())) {
+        $alert.html('Please Enter a Valid Zipcode').addClass('text-danger').fadeIn(500);
+        return false;
+      }
+
+      return true;
     }
 
     function register($form) {
@@ -103,7 +108,7 @@
             $alert.html(data.msg).addClass('text-danger').fadeIn(500);
           } else {
             $form.trigger('reset');
-            $alert.html('Woo Hoo!&nbsp; Now, Go Check Your Email :)');
+            $alert.html('Thanks! Check your email to confirm signup.');
             $alert.addClass('text-success').fadeIn(500);
 
             setTimeout(function(){

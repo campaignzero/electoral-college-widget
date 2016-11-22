@@ -102,17 +102,25 @@ var appWidget = {
             if (ec[i].phone !== '') {
               var phoneNumber = ec[i].phone;
               jQuery('a.phone', $li).attr('href', 'tel:' + phoneNumber);
+              jQuery('a.phone', $li).data('phone-number', phoneNumber);
+              jQuery('a.phone', $li).data('elector-name', elector);
 
               // Setup Click Tracking
               jQuery('a.phone', $li).off('click.widget');
               jQuery('a.phone', $li).on('click.widget', function (event) {
 
-                if(confirm('Would you like to Call ' + elector + ' at: ' + phoneNumber)) {
+                var dataPhoneNumber = $(this).data('phone-number');
+                var dataElectorName = $(this).data('elector-name');
+
+                console.log('dataPhoneNumber', dataPhoneNumber);
+                console.log('dataElectorName', dataElectorName);
+
+                if(confirm('Would you like to Call ' + dataElectorName + ' at ' + dataPhoneNumber + '? A call script will popup with sample language for what to say.')) {
                   setTimeout(function (){
                     alert('I\'m _____, and I\'m calling to ask you to respect the will of the American people. I hope you\'ll vote to elect Hillary Clinton President.\n\nAlready, Trump\'s team has announced plans to target millions of Americans because of who they are or what they look like.\n\nThe Founders gave the electoral college the power to stop tyrants like Trump.\n\nPlease use your power to protect us from harm.');
                   }, 250);
 
-                  appWidget.trackEvent('EC Widget', 'Elector Called Name', elector);
+                  appWidget.trackEvent('EC Widget', 'Elector Called Name', dataElectorName);
                   appWidget.trackEvent('EC Widget', 'Elector Called State', state);
                 } else {
                   event.preventDefault();

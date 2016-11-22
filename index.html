@@ -47,7 +47,11 @@
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
             <input name="cmd" type="hidden" value="_s-xclick">
             <input name="hosted_button_id" type="hidden" value="DCTT2LSQK42E8">
-            <input name="submit" type="submit" value="Donate" class="btn top-donate-btn">
+            <input name="item_name" type="hidden" value="Make Democracy Matter">
+            <input name="image_url" type="hidden" value="https://makedemocracymatter.org/app-preview.jpg">
+            <input name="return" type="hidden" value="https://makedemocracymatter.org">
+            <input name="cancel_return" type="hidden" value="https://makedemocracymatter.org">
+            <input name="submit" type="submit" value="Support" class="btn top-donate-btn">
           </form>
 
         </div> <!-- end col-sm-6  -->
@@ -108,20 +112,20 @@
 
       <div class="col-md-8 col-sm-12 text-left signup-text">
         <h2>We need your help</h2>
-        <p>We can stop Trump from imposing his racist agenda on America. Together, we can build systems and structures that protect people from harm and dismantle white supremacy.</p>
+        <p>We can stop Trump from imposing his racist agenda on America. Together, we can build systems and structures that protect people from harm and dismantle white supremacy. Sign up to join a new coalition to advance racial justice and equity in America.</p>
       </div>
 
       <div class="col-md-4 col-sm-12">
         <form class="signup-form" method="post" action="https://wetheprotesters.us5.list-manage.com/subscribe/post-json?u=81643c9592bb041cc8a4ea614&amp;id=a806779ef2&c=?">
           <div class="row">
             <div class="col-xs-12 input">
-              <input placeholder="Email Address" type="text" name="EMAIL" id="mce-EMAIL">
+              <input placeholder="Email Address" type="email" name="EMAIL" id="mce-EMAIL" required>
             </div>
             <div class="col-xs-12 input">
-              <input placeholder="Phone Number" type="text" name="MMERGE1" id="mce-MMERGE1">
+              <input placeholder="Zip Code" type="text" name="MMERGE2" id="mce-MMERGE2" pattern="[0-9]{5}" maxlength="5" required>
             </div>
             <div class="col-xs-12 input">
-              <input placeholder="Zip Code" type="text" name="MMERGE2" id="mce-MMERGE2">
+              <input placeholder="Phone Number ( optional )" type="phone" name="MMERGE1" id="mce-MMERGE1">
             </div>
             <div class="col-xs-12 button">
               <button type="submit" class="btn btn-dark btn-block">Sign Up</button>
@@ -143,7 +147,7 @@
 <script src="website/js/jquery.min.js"></script>
 <script src="website/js/custom-scripts.js"></script>
 <script src="website/js/bootstrap.min.js"></script>
-<script src="https://electoral-college.joincampaignzero.org/widget.js" charset="utf-8"></script>
+<script src="widget.js" charset="utf-8"></script>
 </body>
 
 </html>

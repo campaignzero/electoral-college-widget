@@ -396,6 +396,7 @@ nav ul, nav li {
   background-color: #222;
   text-align: center;
   height: 50px;
+  margin: 0;
 }
 
 ul.share-buttons{

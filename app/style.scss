@@ -158,6 +158,7 @@
           .content {
             display: inline-block;
             width: calc(100% - 60px);
+            position: relative;
 
             .image {
               width: 60px;
@@ -196,6 +197,23 @@
                 width: 100%;
                 overflow: hidden;
                 white-space: nowrap;
+              }
+            }
+
+            .abuse-reported {
+              position: absolute;
+              top: 18px;
+              right: 20px;
+              font-size: 24px;
+              display: none;
+
+              a {
+                color: #cc3d3d;
+
+                &:hover {
+                  color: red;
+                  text-decoration: none;
+                }
               }
             }
           }

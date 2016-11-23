@@ -117,7 +117,8 @@
                 color: #333; }
           #electoral-college-widget .modal .modal-content .elector-wrapper .summary .content {
             display: inline-block;
-            width: calc(100% - 60px); }
+            width: calc(100% - 60px);
+            position: relative; }
             #electoral-college-widget .modal .modal-content .elector-wrapper .summary .content .image {
               width: 60px;
               height: 60px;
@@ -150,6 +151,17 @@
                 width: 100%;
                 overflow: hidden;
                 white-space: nowrap; }
+            #electoral-college-widget .modal .modal-content .elector-wrapper .summary .content .abuse-reported {
+              position: absolute;
+              top: 18px;
+              right: 20px;
+              font-size: 24px;
+              display: none; }
+              #electoral-college-widget .modal .modal-content .elector-wrapper .summary .content .abuse-reported a {
+                color: #cc3d3d; }
+                #electoral-college-widget .modal .modal-content .elector-wrapper .summary .content .abuse-reported a:hover {
+                  color: red;
+                  text-decoration: none; }
         #electoral-college-widget .modal .modal-content .elector-wrapper .contact-info {
           height: 60px;
           width: 100%;

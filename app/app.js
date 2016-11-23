@@ -9,6 +9,7 @@ var appWidget = {
   maxResizeAttempts: 20,
   currentResizeAttempt: 0,
   resizeTimeout: null,
+  notifiedReportedAbuse: false,
 
   /**
    * Track Event using Google Analytics
@@ -21,6 +22,20 @@ var appWidget = {
     if(typeof window.ga !== 'undefined'){
       ga('electoralCollegeWidget.send', 'event', category, action, label, value);
     }
+  },
+
+  /**
+   * Some Electors have been reported harassing those contacting them
+   * @param event
+   * @returns {boolean}
+   */
+  notifyReportedAbuse: function (event) {
+    appWidget.notifiedReportedAbuse = true;
+
+    alert('There have been reports of harassment from this Elector.');
+
+    event.preventDefault();
+    return false;
   },
 
   resize: function() {
@@ -93,6 +108,13 @@ var appWidget = {
             var $li = $template.clone();
             var elector = (ec[i].elector !== '') ? ec[i].elector : state + ' Elector';
 
+            // Check for Reported Abuse
+            if (ec[i].abuse_reported === true) {
+              setTimeout(function () {
+                jQuery('.abuse-reported', $li).show();
+              }, 500);
+            }
+
             // Setup Photo
             if (ec[i].photo !== '') {
               jQuery('.photo', $li).css('background-image', 'url("https://proxy.joincampaignzero.org/'+ ec[i].photo +'")');
@@ -128,9 +150,6 @@ var appWidget = {
 
                 var dataPhoneNumber = $(this).data('phone-number');
                 var dataElectorName = $(this).data('elector-name');
-
-                console.log('dataPhoneNumber', dataPhoneNumber);
-                console.log('dataElectorName', dataElectorName);
 
                 if(confirm('Would you like to Call ' + dataElectorName + ' at ' + dataPhoneNumber + '? A call script will popup with sample language for what to say.')) {
                   setTimeout(function (){
@@ -185,8 +204,15 @@ var appWidget = {
             jQuery('.modal-content ul', elm).append($li);
 
             // Setup Click Tracking for Toggle
+            jQuery('.toggle, .content', $li).data('abuse-reported', ec[i].abuse_reported);
+
             jQuery('.toggle, .content', $li).off('click.widget');
             jQuery('.toggle, .content', $li).on('click.widget', function (event) {
+
+              if (jQuery(this).data('abuse-reported') === true && appWidget.notifiedReportedAbuse === false) {
+                appWidget.notifyReportedAbuse(event);
+              }
+
               jQuery('.elector-wrapper').not(jQuery(this).closest('.elector-wrapper')).removeClass('open').addClass('closed');
               jQuery(this).closest('.elector-wrapper').toggleClass('open').toggleClass('closed');
 
@@ -232,6 +258,9 @@ var appWidget = {
 
       jQuery('a.state', elm).off('click.widget');
       jQuery('a.state', elm).click('click.widget', function (event) {
+
+        appWidget.notifiedReportedAbuse = false;
+
         var code = $(this).data('code');
         var state = $(this).data('state');
         var party = $(this).data('party');

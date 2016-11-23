@@ -1,6 +1,7 @@
 [
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Frank Burt, Jr.",
     "email": "fburt@baldwincountyal.gov",
@@ -11,7 +12,8 @@
     "photo": "http://baldwincountyal.gov/images/default-source/default-album/frank_burt_190.jpg?sfvrsn=0"
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Will Sellers",
     "email": "wsellers@balch.com",
@@ -22,7 +24,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/13435381_10209174660624188_7689134375498440888_n.jpg?oh=57bed7f6e175aab96b9f27dff816651a&oe=58CB90A9"
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Jim Wilson",
     "email": "info@jwamalls.com",
@@ -33,7 +36,8 @@
     "photo": "http://jwamalls.com/wp-content/uploads/2014/12/160619_ZR_005_Wilson2-120x120.jpg"
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Tim Wadsworth",
     "email": "wadsworth@centurytel.net",
@@ -44,7 +48,8 @@
     "photo": "https://pbs.twimg.com/profile_images/625974545036505088/DK9Zm275_400x400.jpg"
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Elbert Peters",
     "email": "",
@@ -55,7 +60,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c126.20.256.256/s160x160/524658_10200797916290886_673620694_n.jpg?oh=0534ca1d57e0e8aefcb73dfcdb1001b7&oe=58CDE49E"
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Mary Sue McClurkin",
     "email": "marysuemcclurkin@gmail.com",
@@ -66,7 +72,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c5.0.200.200/p200x200/1452283_1015284708489081_8827028995727764484_n.jpg?oh=1191a5f11dc695369641eec3dfb7f71a&oe=58CF5392"
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Bob Cusanelli",
     "email": "",
@@ -77,7 +84,8 @@
     "photo": ""
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Perry Hooper Jr.",
     "email": "perryo@palomarins.com",
@@ -88,7 +96,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p200x200/11694014_659507790847766_7448501036939592196_n.jpg?oh=10621c07926c1a93e93caf20d5c8094b&oe=58962F1D"
   },
   {
-    "code": "AL",
+    "abuse_reported": false,
+	"code": "AL",
     "state": "Alabama",
     "elector": "Grady Thornton",
     "email": "",
@@ -99,7 +108,8 @@
     "photo": "https://pbs.twimg.com/profile_images/2538823826/egt8ww9kaj0hj2rxjk1c.jpeg"
   },
   {
-    "code": "AK",
+    "abuse_reported": false,
+	"code": "AK",
     "state": "Alaska",
     "elector": "Sean Parnell",
     "email": "info@seanparnellak.com",
@@ -110,7 +120,8 @@
     "photo": "http://www.parnellaklaw.com/images/SRP_portrait.png"
   },
   {
-    "code": "AK",
+    "abuse_reported": false,
+	"code": "AK",
     "state": "Alaska",
     "elector": "Jacqueline Tupou",
     "email": "",
@@ -121,7 +132,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1898287_10205283276345418_3236815274907093819_n.jpg?oh=de0f1a270e3a06fad1b0b4d89b644326&oe=588D2E41"
   },
   {
-    "code": "AK",
+    "abuse_reported": false,
+	"code": "AK",
     "state": "Alaska",
     "elector": "Carolyn Leman",
     "email": "",
@@ -132,7 +144,8 @@
     "photo": ""
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Bruce Ash",
     "email": "bash@paulashmgt.com",
@@ -143,7 +156,8 @@
     "photo": "http://paulashmgt.com/new/wp-content/uploads/2014/03/bruce_ash.jpg"
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Walter Begay",
     "email": "",
@@ -154,7 +168,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/13006575_583819525128129_6786208196665180956_n.jpg?oh=1d139216ab7552f5c8219e938110bc14&oe=588A4038"
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Sharon Giese",
     "email": "sharongiese08@yahoo.com",
@@ -165,7 +180,8 @@
     "photo": ""
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Robert Graham",
     "email": "",
@@ -176,7 +192,8 @@
     "photo": "https://pbs.twimg.com/profile_images/430504465150386177/0p2p-mjl_400x400.jpeg"
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Alberto Gutier",
     "email": "albertogutier@aol.com",
@@ -187,7 +204,8 @@
     "photo": "http://www.azgohs.gov/includes/css/images/alberto-gutier.jpg"
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Jerry Hayden",
     "email": "",
@@ -198,7 +216,8 @@
     "photo": ""
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Carole Joyce",
     "email": "paddywagon@cox.net",
@@ -209,7 +228,8 @@
     "photo": ""
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Jane Pierpoint Lynch",
     "email": "",
@@ -220,7 +240,8 @@
     "photo": ""
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Foster Morgan",
     "email": "",
@@ -231,7 +252,8 @@
     "photo": ""
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "James O'Connor",
     "email": "jwo@ronnoco3.com",
@@ -242,7 +264,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c190.46.580.580/s160x160/35010_10151552926430199_116424399_n.jpg?oh=22ddea573162e6830fb00ab9fe3017d0&oe=58D51B4D"
   },
   {
-    "code": "AZ",
+    "abuse_reported": false,
+	"code": "AZ",
     "state": "Arizona",
     "elector": "Edward Robson",
     "email": "",
@@ -253,7 +276,8 @@
     "photo": "http://cdn.robson.com/wp-content/uploads/EdRobsonPhoto1-750x656.jpg"
   },
   {
-    "code": "AR",
+    "abuse_reported": false,
+	"code": "AR",
     "state": "Arkansas",
     "elector": "Jonelle Fulmer",
     "email": "",
@@ -264,7 +288,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/14192179_10210288724952537_7918963192295443237_n.jpg?oh=905467a570152e0039c63405119f7719&oe=58D314C2"
   },
   {
-    "code": "AR",
+    "abuse_reported": false,
+	"code": "AR",
     "state": "Arkansas",
     "elector": "Jonathan Barnett",
     "email": "jonathan.barnett@arkansashouse.org",
@@ -275,7 +300,8 @@
     "photo": "http://www.arkleg.state.ar.us/assembly/2013/Member%20Pictures/barnett.jpg"
   },
   {
-    "code": "AR",
+    "abuse_reported": false,
+	"code": "AR",
     "state": "Arkansas",
     "elector": "Keith Gibson",
     "email": "keithg@pinncom.com",
@@ -286,7 +312,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10421296_10204266662618625_8436829855730198325_n.jpg?oh=5aeb88c31120c9755e8e5f3f385225b7&oe=58CC36BA"
   },
   {
-    "code": "AR",
+    "abuse_reported": false,
+	"code": "AR",
     "state": "Arkansas",
     "elector": "Sharon Wright",
     "email": "swright028@yahoo.com",
@@ -297,7 +324,8 @@
     "photo": ""
   },
   {
-    "code": "AR",
+    "abuse_reported": false,
+	"code": "AR",
     "state": "Arkansas",
     "elector": "Tommy Land",
     "email": "tommyland@sbcglobal.net",
@@ -308,7 +336,8 @@
     "photo": "https://pbs.twimg.com/profile_images/3694050628/78b6cf0635cd88fe2eecdc050c45a971_400x400.jpeg"
   },
   {
-    "code": "AR",
+    "abuse_reported": false,
+	"code": "AR",
     "state": "Arkansas",
     "elector": "John Nabholz",
     "email": "john.nabholz@nabholz.com",
@@ -319,7 +348,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/10644824_10203177977903320_8325645640763600912_n.jpg?oh=25f7a450496027d566055c87b4b29120&oe=58C573D4"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Ade Aderibigbe",
     "email": "",
@@ -330,7 +360,8 @@
     "photo": "https://pbs.twimg.com/profile_images/724299687558156288/BIIXF8wn_400x400.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Larry Ahern",
     "email": "larry@larryahern.com",
@@ -341,7 +372,8 @@
     "photo": "http://www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4505.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Brian Ballard",
     "email": "",
@@ -352,7 +384,8 @@
     "photo": "http://ballard-partners.com/images/team_ballard.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Kristy Banks",
     "email": "info@kbblawfl.com",
@@ -363,7 +396,8 @@
     "photo": ""
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Michael Barnett",
     "email": "",
@@ -374,7 +408,8 @@
     "photo": "https://pbs.twimg.com/profile_images/734398482178551809/bjWcBjjw_400x400.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "LizBeth Benacquisto",
     "email": "lizbeth@votelizbeth.com",
@@ -385,7 +420,8 @@
     "photo": "https://www.flsenate.gov/PublishedContent/Senators/2016-2018/Photos/s27_5047.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Robin Bernstein",
     "email": "robin@rbernstein.com",
@@ -396,7 +432,8 @@
     "photo": "https://www.fitegroup.com/sites/default/files/styles/agent_image/public/agent/profilepic/WEB-Bernstein%20R.jpg?itok=r9Kf9dxW"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Pam Bondi",
     "email": "info@pambondi.com",
@@ -407,7 +444,8 @@
     "photo": "http://www.myfloridalegal.com/legalcontrols.nsf/bondi-bio.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "John Browning",
     "email": "",
@@ -418,7 +456,8 @@
     "photo": "http://www.ftc.state.fl.us/images/browningHS.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Sharon Day",
     "email": "",
@@ -429,7 +468,8 @@
     "photo": "https://pbs.twimg.com/profile_images/643431444136751105/13FVvl6T_400x400.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Dena DeCamp",
     "email": "",
@@ -440,7 +480,8 @@
     "photo": "http://www.ffrw.net/wp-content/uploads/2014/04/Dena-Stebbins-DeCamp.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Nick DiCeglie",
     "email": "nickdiceglie@gmail.com",
@@ -451,7 +492,8 @@
     "photo": "https://pbs.twimg.com/profile_images/757708736404287488/wPz-BFpg_400x400.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Jeremy Evans",
     "email": "Jeremy.Evans@engelvoelkers.com",
@@ -462,7 +504,8 @@
     "photo": ""
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "John Falconetti",
     "email": "info@drummondpress.com",
@@ -473,7 +516,8 @@
     "photo": "http://drummondpress.co/wp-content/uploads/2013/01/Falconetti-5x7-e1359395037805.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Peter Feaman",
     "email": "",
@@ -484,7 +528,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c39.39.489.489/s160x160/281358_104786112953633_6912363_n.jpg?oh=f0ca4205cf8f08dd4315be58fca4879e&oe=588AD2D6"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Kat Gates-Skipper",
     "email": "",
@@ -495,7 +540,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/15094296_1144073382307604_5737029126890480377_n.jpg?oh=a3ca822676763b5c844ff4514cdae492&oe=58C682AE"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Joe Gruters",
     "email": "info@joegruters.com",
@@ -506,7 +552,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c12.0.200.200/p200x200/12122566_1140108682684213_1200339976675664077_n.jpg?oh=40b08a36c1c67628e5aec257b59c0f15&oe=58929B6A"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Debbie Hannifan",
     "email": "debbiehannifan@polkgop.org",
@@ -517,7 +564,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p200x200/13220870_459394187603414_7303702810345069351_n.jpg?oh=2944f2b6591066eb5e49e04a00d7b883&oe=5891942C"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Blaise Ingoglia",
     "email": "blaise.ingoglia@myfloridahouse.gov",
@@ -528,7 +576,8 @@
     "photo": "http://apps.lobbytools.com/tools/photos/607.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Tony Ledbetter",
     "email": "miraclevisor@msn.com",
@@ -539,7 +588,8 @@
     "photo": "http://volusiacountyrepublicans.org/wp-content/plugins/dgx-contacts/timthumb.php?src=http://volusiacountyrepublicans.org/wp-content/uploads/2012/06/tony_ledbetter.jpg&w=150&h=200&a=c"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Mike Moberley",
     "email": "chairman@rpocitrus.org",
@@ -550,7 +600,8 @@
     "photo": "http://www.nsrc-gop.com/Site/images/Mike%20Moberly%20001.JPG"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Susan Moore",
     "email": "smm2043@gmail.com",
@@ -561,7 +612,8 @@
     "photo": ""
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Joe Negron",
     "email": "joenegron@joenegron.com",
@@ -572,7 +624,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.16.200.200/p200x200/10364106_556588057797450_2794545335941501457_n.jpg?oh=9944adca74087d7d42e9c962092067f7&oe=58877295"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Clint Pate",
     "email": "pateclint@yahoo.com",
@@ -583,7 +636,8 @@
     "photo": "https://d3n8a8pro7vhmx.cloudfront.net/floridagop/profile_images/5192918316ce5048a9ea7ae115b4dc054e75c6dd.jpg?1431183127"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Ray Rodrigues",
     "email": "ray.rodrigues@myfloridahouse.gov",
@@ -594,7 +648,8 @@
     "photo": "http://www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4572.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Carlos Trujillo",
     "email": "carlos.trujillo@myfloridahouse.gov",
@@ -605,7 +660,8 @@
     "photo": "http://www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4527.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Robert Watkins",
     "email": "nwatkins@robertwatkins.com",
@@ -616,7 +672,8 @@
     "photo": ""
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Susie Wiles",
     "email": "",
@@ -627,7 +684,8 @@
     "photo": "http://ballard-partners.com/images/team_wiles.jpg"
   },
   {
-    "code": "FL",
+    "abuse_reported": false,
+	"code": "FL",
     "state": "Florida",
     "elector": "Christian Ziegler",
     "email": "christianmziegler@gmail.com",
@@ -638,7 +696,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c14.14.172.172/p200x200/554565_333985386704350_304943128_n.jpg?oh=b196b74c437bed5e494462cf2b2f4925&oe=589398E7"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Bruce Allen Azevedo",
     "email": "",
@@ -649,7 +708,8 @@
     "photo": "http://matrix.remax.net/profilePhotos/100018404.jpg"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Brian K Burdette",
     "email": "bburdette@doe.k12.ga.us",
@@ -660,7 +720,8 @@
     "photo": "https://www.gadoe.org/External-Affairs-and-Policy/State-Board-of-Education/PublishingImages/member_district_10.jpg"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Lott Harris Dill",
     "email": "",
@@ -671,7 +732,8 @@
     "photo": ""
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "John David Elliott",
     "email": "",
@@ -682,7 +744,8 @@
     "photo": ""
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "James Randolph Evans",
     "email": "randy.evans@dentons.com",
@@ -693,7 +756,8 @@
     "photo": "http://www.dentons.com/~/media/Images/Website/Person%20Images/E/Evans_Randy.jpg"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Bobbie D. Frantz",
     "email": "treasurer@DeKalbGOP.org",
@@ -704,7 +768,8 @@
     "photo": "http://dekalbgop.org/wp-content/uploads/2014/08/Bobbie-Frantz.jpg"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Linda DHerren",
     "email": "",
@@ -715,7 +780,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c47.48.591.591/s160x160/305688_106776476120911_30975099_n.jpg?oh=8d3876c095b1a7fb4218933658dbef87&oe=58954A2B"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Rachel Blackstone Little",
     "email": "rblittle.gop@gmail.com",
@@ -726,7 +792,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c14.14.172.172/p200x200/206144_487082158009700_2035045283_n.jpg?oh=3ed062f023974875f12318f836f0fafd&oe=588B827F"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Deborah MMcCord",
     "email": "debbie9mccord@gmail.com",
@@ -737,7 +804,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/11147152_10203775423540853_4993494639124084586_n.jpg?oh=111635273a89f6ed86fac446311274bd&oe=58949169"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Michael Neil McNeely",
     "email": "",
@@ -748,7 +816,8 @@
     "photo": ""
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Mary LPadgett",
     "email": "",
@@ -759,7 +828,8 @@
     "photo": ""
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Neil LPruitt",
     "email": "",
@@ -770,7 +840,8 @@
     "photo": "http://www.usg.edu/assets/regents/images/regents_photos/Neil_Pruitt_Jr.jpg"
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Joshua Kirk Shook",
     "email": "",
@@ -781,7 +852,8 @@
     "photo": ""
   },
   {
-    "code": "GA",
+    "abuse_reported": false,
+	"code": "GA",
     "state": "Georgia",
     "elector": "Frank BStrickland",
     "email": "frank.strickland@sbllaw.com",
@@ -792,7 +864,8 @@
     "photo": "http://www.sbllaw.net/_images/fstrickland_large.jpg"
   },
   {
-    "code": "ID",
+    "abuse_reported": false,
+	"code": "ID",
     "state": "Idaho",
     "elector": "Jennifer Locke",
     "email": "jenniferlocke13pc@gmail.com",
@@ -803,7 +876,8 @@
     "photo": "http://www.kootenaigop.org/sites/default/files/styles/thumbnail_small_square/public/member/jennifer-locke.JPG?itok=ZvTddVM7"
   },
   {
-    "code": "ID",
+    "abuse_reported": false,
+	"code": "ID",
     "state": "Idaho",
     "elector": "Melinda Smyser",
     "email": "",
@@ -814,7 +888,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.31.160.160/p160x160/61568_102798673115554_1663796_n.jpg?oh=6d00053b4f1fee8e2f8457276e9cbff6&oe=58CAA1B7"
   },
   {
-    "code": "ID",
+    "abuse_reported": false,
+	"code": "ID",
     "state": "Idaho",
     "elector": "Layne Bangerter",
     "email": "",
@@ -825,7 +900,8 @@
     "photo": ""
   },
   {
-    "code": "ID",
+    "abuse_reported": false,
+	"code": "ID",
     "state": "Idaho",
     "elector": "Caleb Lakey",
     "email": "Caleb.Lakey@itd.idaho.gov",
@@ -836,7 +912,8 @@
     "photo": ""
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Stephanie Beckley",
     "email": "sbeckley@indiana.gop",
@@ -847,7 +924,8 @@
     "photo": "http://indiana.gop/sites/default/files/testt.png"
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Kevin Steen",
     "email": "",
@@ -858,7 +936,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c14.0.160.160/p160x160/31713_1315788769918_3217078_n.jpg?oh=5ad27f1b30b6dc0618deb3246cfc00eb&oe=58904912"
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Kelly Mitchell",
     "email": "",
@@ -869,7 +948,8 @@
     "photo": "http://www.in.gov/tos/images/Kelly-Mitchell_DSC4526.jpg"
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Daniel Bortner",
     "email": "",
@@ -880,7 +960,8 @@
     "photo": ""
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Laura Campbell",
     "email": "jcampbell@carmel.in.gov",
@@ -891,7 +972,8 @@
     "photo": "http://www.carmel.in.gov/modules/showimage.aspx?imageid=2083"
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Jeff Cardwell",
     "email": "jcardwell@cardwellhomecenter.com",
@@ -902,7 +984,8 @@
     "photo": "https://pbs.twimg.com/profile_images/697180372883345408/vksN6_5V_400x400.jpg"
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Donald Hayes",
     "email": "",
@@ -913,7 +996,8 @@
     "photo": ""
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Randall Kirkpatrick",
     "email": "rlkpatrick55@gmail.com",
@@ -924,7 +1008,8 @@
     "photo": ""
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Edwin Simcox",
     "email": "",
@@ -935,7 +1020,8 @@
     "photo": "http://www.indianaenergy.org/uploads/9/6/1/0/9610381/_354573.jpg"
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Ethan Manning",
     "email": "",
@@ -946,7 +1032,8 @@
     "photo": "https://pbs.twimg.com/profile_images/438461419172806656/g9ChCiTQ_400x400.jpeg"
   },
   {
-    "code": "IN",
+    "abuse_reported": false,
+	"code": "IN",
     "state": "Indiana",
     "elector": "Chuck Williams",
     "email": "",
@@ -957,7 +1044,8 @@
     "photo": ""
   },
   {
-    "code": "IA",
+    "abuse_reported": false,
+	"code": "IA",
     "state": "Iowa",
     "elector": "James Whitmer",
     "email": "jfwhitmer@aol.com",
@@ -968,7 +1056,8 @@
     "photo": "http://bloximages.chicago2.vip.townnews.com/qctimes.com/content/tncms/assets/v3/editorial/5/85/5854b7b6-0404-5d70-bc76-da7eb7eb9637/5823b2ad50450.image.jpg?resize=1200%2C546"
   },
   {
-    "code": "IA",
+    "abuse_reported": false,
+	"code": "IA",
     "state": "Iowa",
     "elector": "Don Kass",
     "email": "dkass@co.plymouth.ia.us",
@@ -979,7 +1068,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10154267_735088633177947_1230673239525120460_n.jpg?oh=050f2a6106cc8526fa1e581ec72e9eb4&oe=588D273A"
   },
   {
-    "code": "IA",
+    "abuse_reported": false,
+	"code": "IA",
     "state": "Iowa",
     "elector": "Dylan Keller",
     "email": "",
@@ -990,7 +1080,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12745593_10154469506685639_7430596642655931268_n.jpg?oh=4c33651fc2099855aa1c0248f7cf7a97&oe=58912EE3"
   },
   {
-    "code": "IA",
+    "abuse_reported": false,
+	"code": "IA",
     "state": "Iowa",
     "elector": "Alan Braun",
     "email": "",
@@ -1001,7 +1092,8 @@
     "photo": "https://iowaarthritis.com/wp-content/uploads/2016/01/alan-braun-683x1024.jpg"
   },
   {
-    "code": "IA",
+    "abuse_reported": false,
+	"code": "IA",
     "state": "Iowa",
     "elector": "Kurt Brown",
     "email": "",
@@ -1012,7 +1104,8 @@
     "photo": "http://www.vw72.com/Real%20Estate%20Page/kurtbrown.jpg"
   },
   {
-    "code": "IA",
+    "abuse_reported": false,
+	"code": "IA",
     "state": "Iowa",
     "elector": "Polly Granzow",
     "email": "pgranzow44@heartofiowa.net",
@@ -1023,7 +1116,8 @@
     "photo": "https://www.legis.iowa.gov/DOCS/GA/80GA/House/Pictures/Polly-Granzow.jpg"
   },
   {
-    "code": "KS",
+    "abuse_reported": false,
+	"code": "KS",
     "state": "Kansas",
     "elector": "Ashley JMcMillan",
     "email": "info@cloudcorp.net",
@@ -1034,7 +1128,8 @@
     "photo": "https://static.wixstatic.com/media/6973e1_4a5fcd8f822e4b88817fd5cb67a0618f.jpg/v1/fill/w_132,h_137,al_c,q_80,usm_0.66_1.00_0.01/6973e1_4a5fcd8f822e4b88817fd5cb67a0618f.jpg"
   },
   {
-    "code": "KS",
+    "abuse_reported": false,
+	"code": "KS",
     "state": "Kansas",
     "elector": "Helen Van Etten",
     "email": "",
@@ -1045,7 +1140,8 @@
     "photo": "https://prod-static-ngop-pbl.s3.amazonaws.com/media/images/Helen%20Van%20Etten_1423152785.jpg"
   },
   {
-    "code": "KS",
+    "abuse_reported": false,
+	"code": "KS",
     "state": "Kansas",
     "elector": "Mark Kahrs",
     "email": "mark.kahrs@house.ks.gov",
@@ -1056,7 +1152,8 @@
     "photo": "http://www.kslegislature.org/li/m/images/pics/rep_kahrs_mark_1.jpg"
   },
   {
-    "code": "KS",
+    "abuse_reported": false,
+	"code": "KS",
     "state": "Kansas",
     "elector": "Ron Estes",
     "email": "ron@treasurer.ks.gov",
@@ -1067,7 +1164,8 @@
     "photo": "https://www.kansasstatetreasurer.com/prodweb/images/news/Ron_Library.jpg"
   },
   {
-    "code": "KS",
+    "abuse_reported": false,
+	"code": "KS",
     "state": "Kansas",
     "elector": "Clayton LBarker",
     "email": "",
@@ -1078,7 +1176,8 @@
     "photo": "https://static.wixstatic.com/media/8353d3_6481f967fd5140deb7f52dba5380c34f.jpg/v1/fill/w_225,h_265,al_c,q_80,usm_0.66_1.00_0.01/8353d3_6481f967fd5140deb7f52dba5380c34f.jpg"
   },
   {
-    "code": "KS",
+    "abuse_reported": false,
+	"code": "KS",
     "state": "Kansas",
     "elector": "Kelly Arnold",
     "email": "kelly.arnold@sedgwick.gov",
@@ -1089,7 +1188,8 @@
     "photo": "http://www.sedgwickcounty.org/countyclerk/images/kelly_arnold.jpg"
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "Jim Skaggs",
     "email": "",
@@ -1100,7 +1200,8 @@
     "photo": "http://cpe.ky.gov/NR/rdonlyres/7F352C1B-FAF4-401A-84C8-15CE0C06C638/0/skaggs08.jpg"
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "David Disponett",
     "email": "",
@@ -1111,7 +1212,8 @@
     "photo": ""
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "Robert Duncan",
     "email": "rduncan@jacksonkelly.com",
@@ -1122,7 +1224,8 @@
     "photo": "http://www.jacksonkelly.com/images/attorneys/DuncanB-web.jpg"
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "Michael Carter",
     "email": "",
@@ -1133,7 +1236,8 @@
     "photo": ""
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "Scott Lasley",
     "email": "lasleywarrengop@gmai.com",
@@ -1144,7 +1248,8 @@
     "photo": ""
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "Walter Reichert",
     "email": "",
@@ -1155,7 +1260,8 @@
     "photo": ""
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "Mary Singleton",
     "email": "medsingleton@gmail.com",
@@ -1166,7 +1272,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14956429_10210968001259784_2461607042537867654_n.jpg?oh=58293d99acdf490d02e5b2d55e82a51f&oe=58BD6A1C"
   },
   {
-    "code": "KY",
+    "abuse_reported": false,
+	"code": "KY",
     "state": "Kentucky",
     "elector": "Troy Sheldon",
     "email": "",
@@ -1177,7 +1284,8 @@
     "photo": ""
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Chris DTrahan",
     "email": "info@trahanlaw.com",
@@ -1188,7 +1296,8 @@
     "photo": "http://wldimages.findlaw.com/images/2004747/2924311_1.jpg"
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Lloyd AHarsch",
     "email": "lharsch@nobts.edu",
@@ -1199,7 +1308,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10377004_770437276332122_4326667884137790946_n.jpg?oh=cd71bc26ac52f4ec9ea8891519b29b46&oe=58935134"
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Charles L “Charlie” Buckels",
     "email": "info@lagop.com",
@@ -1210,7 +1320,8 @@
     "photo": ""
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Louis RAvallone",
     "email": "",
@@ -1221,7 +1332,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.0.200.200/p200x200/12096422_10153633431236093_7034978959716388298_n.jpg?oh=d97f09eca5cf1b479b0632890ff597ea&oe=589369AB"
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Kay Kellogg Katz",
     "email": "",
@@ -1232,7 +1344,8 @@
     "photo": ""
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Lennie HRhys",
     "email": "",
@@ -1243,7 +1356,8 @@
     "photo": "http://www.louisianastrong.com/wp-content/uploads/2013/08/DSC_8419.jpg"
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Garrett CMonti",
     "email": "info@montinotary.com",
@@ -1254,7 +1368,8 @@
     "photo": "http://montinotary.com/images/GarrettLowres.jpg"
   },
   {
-    "code": "LA",
+    "abuse_reported": false,
+	"code": "LA",
     "state": "Louisiana",
     "elector": "Steven “Scott “ Wilfong",
     "email": "",
@@ -1265,7 +1380,8 @@
     "photo": ""
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "John Haggard",
     "email": "samhunt59@yahoo.com",
@@ -1276,7 +1392,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/14639701_1479269368757655_908236208203156664_n.jpg?oh=3b77b805cc604ad308c1e8992deee607&oe=58930D30"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Jack Holmes",
     "email": "holmes@hope.edu",
@@ -1287,7 +1404,8 @@
     "photo": ""
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Kelly Mitchell",
     "email": "",
@@ -1298,7 +1416,8 @@
     "photo": ""
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Judy Rapanos",
     "email": "judyrapanos@aol.com",
@@ -1309,7 +1428,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/11800260_10207673592067496_2900845282485913440_n.jpg?oh=3e87d85fcf631763dc8b3657ea3f11db&oe=5886C217"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Henry Hatter",
     "email": "henry0521@aol.com",
@@ -1320,7 +1440,8 @@
     "photo": "https://pbs.twimg.com/profile_images/592664323/000_hh1_400x400.jpg"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Robert Weitt",
     "email": "",
@@ -1331,7 +1452,8 @@
     "photo": ""
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Wyckham Seelig",
     "email": "wdseelig@gmail.com",
@@ -1342,7 +1464,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.10.160.160/p160x160/1922327_10202126004810122_603283903_n.jpg?oh=50181fecaacc1f6008f527ff207ebe57&oe=588D4A3C"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Ross Ensign",
     "email": "ensign2415@comcast.net",
@@ -1353,7 +1476,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.17.160.160/p160x160/1779283_10201873286896227_828463839_n.jpg?oh=8e7e3594e38fa99a61b48415cf153b0c&oe=58CD3CD3"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Michael Banerian",
     "email": "mikeforyouthchair@gmail.com",
@@ -1364,7 +1488,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p200x200/11214061_397341860452801_1794928045103737570_n.jpg?oh=a68bed6167ec8473088a8c52a81aacfe&oe=58C285FF"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Brian Fairbrother",
     "email": "briansfairbrother@gmail.com",
@@ -1375,7 +1500,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10846171_10153724891383902_2045784073732628422_n.jpg?oh=fd797c528e56c9b3e5f335518a2da19f&oe=58884801"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Ken Crider",
     "email": "",
@@ -1386,7 +1512,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.16.200.200/p200x200/10277902_681538948555248_7526024026272506941_n.jpg?oh=26363ff3eadf0951dd92ac66c1883461&oe=58D3FD11"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Mary Vaughn",
     "email": "",
@@ -1397,7 +1524,8 @@
     "photo": ""
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Jim Rhoades",
     "email": "BIKER50JIM@yahoo.com",
@@ -1408,7 +1536,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10612813_307461786094127_603382891716113484_n.jpg?oh=71965343bc7d97d0bf6023ec8b65bd26&oe=58CE63D9"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "William Rauwerdink",
     "email": "",
@@ -1419,7 +1548,8 @@
     "photo": ""
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Hank Fuhs",
     "email": "hank@hankfuhs.org",
@@ -1430,7 +1560,8 @@
     "photo": "https://pbs.twimg.com/profile_images/272400221/Hank_Fuhs_photos._003_resized_100_400x400.JPG"
   },
   {
-    "code": "MI",
+    "abuse_reported": false,
+	"code": "MI",
     "state": "Michigan",
     "elector": "Joseph Guzman",
     "email": "jguzman@msu.edu",
@@ -1441,7 +1572,8 @@
     "photo": ""
   },
   {
-    "code": "MS",
+    "abuse_reported": false,
+	"code": "MS",
     "state": "Mississippi",
     "elector": "Ann Hebert",
     "email": "",
@@ -1452,7 +1584,8 @@
     "photo": ""
   },
   {
-    "code": "MS",
+    "abuse_reported": false,
+	"code": "MS",
     "state": "Mississippi",
     "elector": "Joe FSanderson Jr.",
     "email": "",
@@ -1463,7 +1596,8 @@
     "photo": "http://www.sandersonfarms.com/wp-content/uploads/2011/05/Management_JoeFSandersonJr_426x550.jpg"
   },
   {
-    "code": "MS",
+    "abuse_reported": false,
+	"code": "MS",
     "state": "Mississippi",
     "elector": "Bradley RWhite",
     "email": "",
@@ -1474,7 +1608,8 @@
     "photo": ""
   },
   {
-    "code": "MS",
+    "abuse_reported": false,
+	"code": "MS",
     "state": "Mississippi",
     "elector": "JKelley Williams",
     "email": "",
@@ -1485,7 +1620,8 @@
     "photo": ""
   },
   {
-    "code": "MS",
+    "abuse_reported": false,
+	"code": "MS",
     "state": "Mississippi",
     "elector": "William GYates Jr.",
     "email": "",
@@ -1496,7 +1632,8 @@
     "photo": "http://www.msmec.com/images/Leadership_Bio_Photos/w_yates.jpg"
   },
   {
-    "code": "MS",
+    "abuse_reported": false,
+	"code": "MS",
     "state": "Mississippi",
     "elector": "Wirt AYerger, Jr.",
     "email": "wyerger@bellsouth.net",
@@ -1507,7 +1644,8 @@
     "photo": "http://www.rossandyerger.com/images/upload-images2/WirtYergerJr_-_Web.jpg"
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Tim Dreste",
     "email": "",
@@ -1518,7 +1656,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Janice DeWeese",
     "email": "",
@@ -1529,7 +1668,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Hector Maldonado",
     "email": "",
@@ -1540,7 +1680,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Sherry Kuttenkuler",
     "email": "",
@@ -1551,7 +1692,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Casey Crawford",
     "email": "ccrawford@wallacesaunders.com",
@@ -1562,7 +1704,8 @@
     "photo": "https://wallacesaunders.com/_img/attorneys/casey-g-crawford-attorney-profile.jpg"
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Tom Brown",
     "email": "",
@@ -1573,7 +1716,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Cherry Warren",
     "email": "",
@@ -1584,7 +1728,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Scott Clark",
     "email": "info@health.mo.gov",
@@ -1595,7 +1740,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Al Rotskoff",
     "email": "ask@crescentsupply.com",
@@ -1606,7 +1752,8 @@
     "photo": ""
   },
   {
-    "code": "MO",
+    "abuse_reported": false,
+	"code": "MO",
     "state": "Missouri",
     "elector": "Susie Johnson",
     "email": "susie@susiojohnson.com",
@@ -1617,7 +1764,8 @@
     "photo": ""
   },
   {
-    "code": "MT",
+    "abuse_reported": false,
+	"code": "MT",
     "state": "Montana",
     "elector": "Thelma Baker",
     "email": "",
@@ -1628,7 +1776,8 @@
     "photo": ""
   },
   {
-    "code": "MT",
+    "abuse_reported": false,
+	"code": "MT",
     "state": "Montana",
     "elector": "Nancy Ballance",
     "email": "nancyballance@aol.com",
@@ -1639,7 +1788,8 @@
     "photo": "http://leg.mt.gov/images/legislators_63rd/15260.jpg"
   },
   {
-    "code": "MT",
+    "abuse_reported": false,
+	"code": "MT",
     "state": "Montana",
     "elector": "Dennis Scranton",
     "email": "",
@@ -1650,7 +1800,8 @@
     "photo": "https://pbs.twimg.com/profile_images/403089373/twitter_400x400.jpg"
   },
   {
-    "code": "NE",
+    "abuse_reported": false,
+	"code": "NE",
     "state": "Nebraska",
     "elector": "Phil Berlin",
     "email": "",
@@ -1661,7 +1812,8 @@
     "photo": ""
   },
   {
-    "code": "NE",
+    "abuse_reported": false,
+	"code": "NE",
     "state": "Nebraska",
     "elector": "John Dinkel",
     "email": "",
@@ -1672,7 +1824,8 @@
     "photo": ""
   },
   {
-    "code": "NE",
+    "abuse_reported": false,
+	"code": "NE",
     "state": "Nebraska",
     "elector": "Chuck Conrad",
     "email": "nebraskartl@gmail.com",
@@ -1683,7 +1836,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/14991898_1258086444248034_4398612080365406168_n.jpg?oh=611a2468083a03f438ae3fc83c6090d2&oe=58CCB44B"
   },
   {
-    "code": "NE",
+    "abuse_reported": false,
+	"code": "NE",
     "state": "Nebraska",
     "elector": "Craig Safranek",
     "email": "craig@trisag.com",
@@ -1694,7 +1848,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14938238_10202257119826941_2075804730033945331_n.jpg?oh=c745aa89c677e6c5f1b12f5e1b356c9a&oe=58CD966A"
   },
   {
-    "code": "NE",
+    "abuse_reported": false,
+	"code": "NE",
     "state": "Nebraska",
     "elector": "Paul Burger",
     "email": "burgerpr@unk.edu",
@@ -1705,7 +1860,8 @@
     "photo": "http://www.unk.edu/academics/geography/_images/Paul%20Burger.jpg"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Linda Harper",
     "email": "tl862@reagan.com",
@@ -1716,7 +1872,8 @@
     "photo": "http://nebula.wsimg.com/04fa86481275ebe7601ea071fbc269c9?AccessKeyId=601E6295AAF8360AC356&disposition=0&alloworigin=1"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Charles Staley",
     "email": "",
@@ -1727,7 +1884,8 @@
     "photo": "http://leegop.org/sites/default/files/siteowner/Charles%20Staley.jpg"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Karen Kozel",
     "email": "",
@@ -1738,7 +1896,8 @@
     "photo": ""
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Martha Jenkins",
     "email": "",
@@ -1749,7 +1908,8 @@
     "photo": "https://www.prlog.org/12091543-martha-jenkins-legislative-liaison.jpg"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Celeste Stanley",
     "email": "ccstanley1@aol.com",
@@ -1760,7 +1920,8 @@
     "photo": ""
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Donald Webb",
     "email": "don.webb@wellsfargoadvisors.com",
@@ -1771,7 +1932,8 @@
     "photo": "https://saf.wellsfargoadvisors.com/faphotos/Photos/72/1065272.jpg"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Robert Muller",
     "email": "",
@@ -1782,7 +1944,8 @@
     "photo": ""
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Jennifer Dunbar",
     "email": "",
@@ -1793,7 +1956,8 @@
     "photo": ""
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Andrea Arterburn",
     "email": "",
@@ -1804,7 +1968,8 @@
     "photo": "https://pbs.twimg.com/profile_images/486940031534116864/72w-vLt1_400x400.jpeg"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Glenn Pinckney Sr.",
     "email": "",
@@ -1815,7 +1980,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/12512360_465134897016212_6357521861577156212_n.jpg?oh=b4269f253b30ed7f7e3c38459acd5962&oe=5889E76D"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Mark Delk",
     "email": "markdelk@aol.com",
@@ -1826,7 +1992,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/1902869_10152228652890238_1905227568_n.jpg?oh=d7253cbe954089d8231128ddac825cbc&oe=58C7C972"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "David Speight",
     "email": "",
@@ -1837,7 +2004,8 @@
     "photo": ""
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Ann Sullivan",
     "email": "",
@@ -1848,7 +2016,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13692515_10207026914530989_9152738685478534969_n.jpg?oh=773b57070e406e29aa27b797998d3f41&oe=58C0D112"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "Lee Green",
     "email": "lee.green@ncgopdcca.org",
@@ -1859,7 +2028,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/14705771_10210814104338274_7079970089439097571_n.jpg?oh=616f9dcb5fe362de63f2a64fc817c2fa&oe=58C7EEE5"
   },
   {
-    "code": "NC",
+    "abuse_reported": false,
+	"code": "NC",
     "state": "North Carolina",
     "elector": "David Smuski",
     "email": "",
@@ -1870,7 +2040,8 @@
     "photo": ""
   },
   {
-    "code": "ND",
+    "abuse_reported": false,
+	"code": "ND",
     "state": "North Dakota",
     "elector": "Duane Mutch",
     "email": "",
@@ -1881,7 +2052,8 @@
     "photo": "http://www.legis.nd.gov/files/styles/medium/public/person/photo/mutch-duane-6941.jpg?itok=QPbbkMf9"
   },
   {
-    "code": "ND",
+    "abuse_reported": false,
+	"code": "ND",
     "state": "North Dakota",
     "elector": "John Olson",
     "email": "olsonpc@midco.net",
@@ -1892,7 +2064,8 @@
     "photo": "https://www.ndcourts.gov/lawyers/Photo/03053.jpg"
   },
   {
-    "code": "ND",
+    "abuse_reported": false,
+	"code": "ND",
     "state": "North Dakota",
     "elector": "Ronald Carlisle",
     "email": "rcarlisle@nd.gov",
@@ -1903,7 +2076,8 @@
     "photo": "http://www.legis.nd.gov/files/styles/medium/public/person/photo/rcarlisle.jpg?itok=ALMMLZIO"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Alex Triantafilou",
     "email": "",
@@ -1914,7 +2088,8 @@
     "photo": "https://pbs.twimg.com/profile_images/719715504663826433/TPqMutwH_400x400.jpg"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Mary Anne Christie",
     "email": "chritim@fuse.net",
@@ -1925,7 +2100,8 @@
     "photo": "https://pbs.twimg.com/profile_images/2522261773/wvy2clbgocissup4y5m2_400x400.jpeg"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Corey Schottenstein",
     "email": "Information@SREGroup.com",
@@ -1936,7 +2112,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.14.160.160/p160x160/12993593_10106166215850901_4111250514713630810_n.jpg?oh=1b64ff5a58638cbc2bae3cd2cbc27a73&oe=58C87BC1"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Jim Dicke II",
     "email": "",
@@ -1947,7 +2124,8 @@
     "photo": ""
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Cheryl Blakely",
     "email": "",
@@ -1958,7 +2136,8 @@
     "photo": ""
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Marilyn Ashcraft",
     "email": "",
@@ -1969,7 +2148,8 @@
     "photo": ""
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Christina Hagan",
     "email": "rep50@ohiohouse.gov",
@@ -1980,7 +2160,8 @@
     "photo": "http://www.ohiohouse.gov/Assets/BannerGraphics/50.jpg"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Richard Jones",
     "email": "",
@@ -1991,7 +2172,8 @@
     "photo": "http://www.butlersheriff.org/BCSO/wp-content/uploads/2013/03/JonesRichard-001-300px-214x300.jpg"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Tom Coyne",
     "email": "",
@@ -2002,7 +2184,8 @@
     "photo": "http://www.cityofbrookpark.com/wp-content/uploads/2014/10/Mayor-Coyne-Shirtsleeves-150x150.jpg"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Judy Westbrock",
     "email": "",
@@ -2013,7 +2196,8 @@
     "photo": ""
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Ralph King",
     "email": "",
@@ -2024,7 +2208,8 @@
     "photo": ""
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Leonard Hubert",
     "email": "leonard@lhubert.com",
@@ -2035,7 +2220,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/263465_2074187291848_2907161_n.jpg?oh=bfe4baa2da30e50d493ea50be571c393&oe=58BD94A3"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Tracey Winbush",
     "email": "tracey@traceyandfriends.com",
@@ -2046,7 +2232,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/14040097_10207339093611253_5426685072361197878_n.jpg?oh=2ad0cfb675678847779ea3efccaed28b&oe=5887D061"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "James Wert",
     "email": "jwert@cmwealthadvisors.com",
@@ -2057,7 +2244,8 @@
     "photo": "http://www.cmwealthadvisors.com/wp-content/uploads/james_wert.jpg"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Brian Schottenstein",
     "email": "bs@sregroup.com",
@@ -2068,7 +2256,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/305304_10100147012208257_1787884457_n.jpg?oh=67589a2911002e53adeb6f6ed49c2f1a&oe=58CF020E"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Curt Braden",
     "email": "",
@@ -2079,7 +2268,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/11070226_1389333341388403_2485192502755651499_n.jpg?oh=8bef4754495df0f23e27b41d5d3a5ef2&oe=58BCFFFC"
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "LeeAnn Johnson",
     "email": "",
@@ -2090,7 +2280,8 @@
     "photo": ""
   },
   {
-    "code": "OH",
+    "abuse_reported": false,
+	"code": "OH",
     "state": "Ohio",
     "elector": "Ed Crawford",
     "email": "",
@@ -2101,7 +2292,8 @@
     "photo": ""
   },
   {
-    "code": "OK",
+    "abuse_reported": false,
+	"code": "OK",
     "state": "Oklahoma",
     "elector": "David Oldham",
     "email": "",
@@ -2112,7 +2304,8 @@
     "photo": ""
   },
   {
-    "code": "OK",
+    "abuse_reported": false,
+	"code": "OK",
     "state": "Oklahoma",
     "elector": "Teresa Turner",
     "email": "",
@@ -2123,7 +2316,8 @@
     "photo": ""
   },
   {
-    "code": "OK",
+    "abuse_reported": false,
+	"code": "OK",
     "state": "Oklahoma",
     "elector": "Mark Thomas",
     "email": "",
@@ -2134,7 +2328,8 @@
     "photo": ""
   },
   {
-    "code": "OK",
+    "abuse_reported": false,
+	"code": "OK",
     "state": "Oklahoma",
     "elector": "Bobby Cleveland",
     "email": "bob.cleveland@okhouse.gov",
@@ -2145,7 +2340,8 @@
     "photo": "http://www.okhouse.gov/Members/Pictures/Cleveland-Bobbyx175.jpg"
   },
   {
-    "code": "OK",
+    "abuse_reported": false,
+	"code": "OK",
     "state": "Oklahoma",
     "elector": "Laurie Beth",
     "email": "",
@@ -2156,7 +2352,8 @@
     "photo": ""
   },
   {
-    "code": "OK",
+    "abuse_reported": false,
+	"code": "OK",
     "state": "Oklahoma",
     "elector": "Charlie Potts",
     "email": "",
@@ -2167,7 +2364,8 @@
     "photo": "https://pbs.twimg.com/profile_images/85225712/Newsletter_pic_400x400.jpg"
   },
   {
-    "code": "OK",
+    "abuse_reported": false,
+	"code": "OK",
     "state": "Oklahoma",
     "elector": "George Wiland",
     "email": "",
@@ -2178,7 +2376,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12274465_10206806248828242_5595810565404708246_n.jpg?oh=0f8129222659d8c3806c135d63015272&oe=58C3288A"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Robert Asher",
     "email": "",
@@ -2189,7 +2388,8 @@
     "photo": "http://www.pagop.org/wp-content/uploads/2013/04/bobs-photo-240x300.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Mary Barket",
     "email": "pfrw@comcast.net",
@@ -2200,7 +2400,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/11143272_10206200418261904_2351429307930206898_n.jpg?oh=e8158a75e8e88f9e16e65c45a28b5b46&oe=58D07373"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Robert Bozzuto",
     "email": "",
@@ -2211,7 +2412,8 @@
     "photo": ""
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Theodore Christian",
     "email": "",
@@ -2222,7 +2424,8 @@
     "photo": "http://www.dmgs.com/img/headshots/christianted-headshot.png"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Michael Downing",
     "email": "",
@@ -2233,7 +2436,8 @@
     "photo": ""
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Margaret Ferraro",
     "email": "",
@@ -2244,7 +2448,8 @@
     "photo": "http://www.pagop.org/wp-content/uploads/2011/04/ferraro.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Robert Gleason",
     "email": "",
@@ -2255,7 +2460,8 @@
     "photo": "http://www.pagop.org/wp-content/uploads/2011/04/RobGleason_195x300_20150709.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Christopher Gleason",
     "email": "",
@@ -2266,7 +2472,8 @@
     "photo": "http://www.pagop.org/wp-content/uploads/2011/04/gleason_christopher_lg.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Joyce Haas",
     "email": "",
@@ -2277,7 +2484,8 @@
     "photo": "https://www.pagop.org/wp-content/uploads/2011/04/Joyce_Haas.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Ash Khare",
     "email": "",
@@ -2288,7 +2496,8 @@
     "photo": "https://pbs.twimg.com/profile_images/779402785972490240/LhlvbQ74_400x400.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "James McErlane",
     "email": "jmcerlane@lambmcerlane.com",
@@ -2299,7 +2508,8 @@
     "photo": ""
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Elstina Pickett",
     "email": "tpickett@pahousegop.com",
@@ -2310,7 +2520,8 @@
     "photo": "http://www.reppickett.com/Display/SiteFiles/68/Pickett_WebHeader_NEW.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Patricia Poprik",
     "email": "",
@@ -2321,7 +2532,8 @@
     "photo": "http://www.bucksgop.org/uploads/5/3/7/4/53747931/_2091527_orig.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Andrew Reilly",
     "email": "areilly@swartzcampbell.com",
@@ -2332,7 +2544,8 @@
     "photo": "http://www.swartzcampbell.com/wp-content/uploads/2014/02/Andrew-Reilly-2013-pic-update.png"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Carol Sides",
     "email": "",
@@ -2343,7 +2556,8 @@
     "photo": ""
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Gloria “Lee” Snover",
     "email": "info@pritchardcompany.com",
@@ -2354,7 +2568,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/12642839_135778260139786_3370704946848712479_n.jpg?oh=b863981cb31e5acd1eee755fc7547b47&oe=58BD6335"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Richard Stewart",
     "email": "rws@jdsw.com",
@@ -2365,7 +2580,8 @@
     "photo": "http://johnsonduffie.com/professionals/photos/RWS1.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Lawrence Tabas",
     "email": "lawrence.tabas@obermayer.com",
@@ -2376,7 +2592,8 @@
     "photo": "http://www.obermayer.com/images/attorneys/Tabas,%20L.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Christine Toretti",
     "email": "",
@@ -2387,7 +2604,8 @@
     "photo": "https://www.pagop.org/wp-content/uploads/2015/12/Christine2-263x300.jpg"
   },
   {
-    "code": "PA",
+    "abuse_reported": false,
+	"code": "PA",
     "state": "Pennsylvania",
     "elector": "Carolyn “Bunny” Welsh",
     "email": "",
@@ -2398,7 +2616,8 @@
     "photo": "http://www.chesco.org/ImageRepository/Document?documentID=30943"
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Glenn McCall",
     "email": "mccallgop@gmail.com",
@@ -2409,7 +2628,8 @@
     "photo": "http://www.glennmccall.com/page1/files/page1_1.png"
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Matt Moore",
     "email": "team@scgop.com",
@@ -2420,7 +2640,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p200x200/13178734_493000250909840_3908849442303943270_n.jpg?oh=9d3df588b006d60f1f8fbeed2acf5c16&oe=58C2A45F"
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Terry Hardesty",
     "email": "",
@@ -2431,7 +2652,8 @@
     "photo": ""
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Jim Ulmer",
     "email": "jasulmer53@yahoo.com",
@@ -2442,7 +2664,8 @@
     "photo": "http://scadvocates4ag.org/images/James%20Ulmer%20cropped.jpg"
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Brenda Bedenbaugh",
     "email": "",
@@ -2453,7 +2676,8 @@
     "photo": "https://images.static-ziprealty.com/images_personnel/v3/ERA/947/32532/br/brenda.bedenbaugh/medium.jpeg"
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Bill Conley",
     "email": "info@spartanburgteaparty.org",
@@ -2464,7 +2688,8 @@
     "photo": "https://pbs.twimg.com/profile_images/533004817904717824/cudXIx3Z_400x400.jpeg"
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Shery Smith",
     "email": "",
@@ -2475,7 +2700,8 @@
     "photo": "https://pbs.twimg.com/profile_images/740880487573532672/9GOToH4w_400x400.jpg"
   },
   {
-    "code": "SC",
+    "abuse_reported": false,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Moye Graham",
     "email": "",
@@ -2486,7 +2712,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p160x160/14993516_10210741551916943_5778864680883732878_n.jpg?oh=a4a5cf88532d6fa582b958be8ed4451a&oe=589087B4"
   },
   {
-    "code": "SC",
+    "abuse_reported": true,
+	"code": "SC",
     "state": "South Carolina",
     "elector": "Jerry Rovner",
     "email": "cdrjr1@juno.com",
@@ -2497,7 +2724,8 @@
     "photo": ""
   },
   {
-    "code": "SD",
+    "abuse_reported": false,
+	"code": "SD",
     "state": "South Dakota",
     "elector": "Dennis Daugaard",
     "email": "",
@@ -2508,7 +2736,8 @@
     "photo": "http://sd.gov/governor/img/daugaard2.jpg"
   },
   {
-    "code": "SD",
+    "abuse_reported": false,
+	"code": "SD",
     "state": "South Dakota",
     "elector": "Matt Michels",
     "email": "",
@@ -2519,7 +2748,8 @@
     "photo": "http://sd.gov/governor/img/michels2.jpg"
   },
   {
-    "code": "SD",
+    "abuse_reported": false,
+	"code": "SD",
     "state": "South Dakota",
     "elector": "Marty Jackley",
     "email": "",
@@ -2530,7 +2760,8 @@
     "photo": "http://atg.sd.gov/img/atg.png"
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Joey Jacobs",
     "email": "",
@@ -2541,7 +2772,8 @@
     "photo": "http://www.acadiahealthcare.com/wp-content/uploads/sites/76/2015/01/joey-jacobs200.jpg"
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Beth Scott Clayton Amos",
     "email": "",
@@ -2552,7 +2784,8 @@
     "photo": ""
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Jason Mumpower",
     "email": "jason.mumpower@cot.tn.gov",
@@ -2563,7 +2796,8 @@
     "photo": "https://www.comptroller.tn.gov/graphics/photos/JM99.jpg"
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Susan Mills",
     "email": "susanm@blountgop.org",
@@ -2574,7 +2808,8 @@
     "photo": ""
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Liz Holiway",
     "email": "c.holiway@att.net",
@@ -2585,7 +2820,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.49.202.202/60874_1341903438183_5147310_n.jpg?oh=3795c9f549673dc5beb5ede6dc8d1cc4&oe=588CBAAF"
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Lynne Davis",
     "email": "lynnedavisrealtor@gmail.com",
@@ -2596,7 +2832,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/12512660_10154034022928187_1439339158178372213_n.jpg?oh=4bee18aeb633339f1ef5234ae15d661f&oe=58BE8931"
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Tom Lawless",
     "email": "",
@@ -2607,7 +2844,8 @@
     "photo": "http://tomlawlessfirm.procurrox.com/wp-content/uploads/sites/2718/assets/banners/1455877146.jpg"
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Mike Callahan",
     "email": "cedesigners@frontiernet.net",
@@ -2618,7 +2856,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.26.130.130/1969172_10201655647732242_1240651745_n.jpg?oh=d63f53a47be2b5b5e9270d72a50a5414&oe=58C97C8B"
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Pat Allen",
     "email": "tomeallentom@netscape.net",
@@ -2629,7 +2868,8 @@
     "photo": ""
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Shannon Haynes",
     "email": "shan827@gmail.com",
@@ -2640,7 +2880,8 @@
     "photo": ""
   },
   {
-    "code": "TN",
+    "abuse_reported": false,
+	"code": "TN",
     "state": "Tennessee",
     "elector": "Drew Daniel",
     "email": "gopdrewster@att.net",
@@ -2651,7 +2892,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Marty Rhymes",
     "email": "",
@@ -2662,7 +2904,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.43.200.200/1782038_10203255903544589_179538537_n.jpg?oh=ceaef8f6d2a31c5d52a869b079deefb1&oe=58BCAF50"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Thomas Moon",
     "email": "",
@@ -2673,7 +2916,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Carol Sewell",
     "email": "",
@@ -2684,7 +2928,8 @@
     "photo": "http://media.cdn.heritagetexas.com/pics/realtor/656514/92865/maxwidth/166"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "John Harper",
     "email": "johnharper@daveperrymiller.com",
@@ -2695,7 +2940,8 @@
     "photo": "http://d24m66tiq5iban.cloudfront.net/pics/realtor/25602/40955//maxwidth/458/maxheight/570/matte/!fff"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Sherrill Lenz",
     "email": "",
@@ -2706,7 +2952,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Nicholas Ciggelakis",
     "email": "",
@@ -2717,7 +2964,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "William Hickman",
     "email": "",
@@ -2728,7 +2976,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/227398_10151641533889617_2004736370_n.jpg?oh=e5dfddc2dabd8dc9f8bfa5928cef6301&oe=5892C3F6"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Landon Estay",
     "email": "landonestay@gmail.com",
@@ -2739,7 +2988,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/12800199_517044095139638_2343044204506025836_n.jpg?oh=7036bb07f2b770fcacda90772b880542&oe=58D15222"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Rex Lamb",
     "email": "rex.lamb@yahoo.com",
@@ -2750,7 +3000,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Rosemary Edwards",
     "email": "",
@@ -2761,7 +3012,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Matt Stringer",
     "email": "",
@@ -2772,7 +3024,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Shellie Surles",
     "email": "",
@@ -2783,7 +3036,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Melissa Juett Kalka",
     "email": "mkalka@jonesday.com",
@@ -2794,7 +3048,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Kenneth Clark",
     "email": "clarkk@co.galveston.tx.us",
@@ -2805,7 +3060,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/14045887_753606878111777_496847601504968900_n.jpg?oh=4fd8f76dceac41ffc972c622a8b31eff&oe=58C13838"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Sandra Cararas",
     "email": "",
@@ -2816,7 +3072,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.27.160.160/p160x160/22160_1199681118180_7581630_n.jpg?oh=45da991931035978ff14f3caa5013e32&oe=58C82F88"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "David Thackston",
     "email": "",
@@ -2827,7 +3084,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Robert Bruce",
     "email": "",
@@ -2838,7 +3096,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Marjorie Forster",
     "email": "",
@@ -2849,7 +3108,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Scott Mann",
     "email": "",
@@ -2860,7 +3120,8 @@
     "photo": "http://safemoneywithscottmann.com/2016/wp-content/uploads/2016/09/safe_money_logo.png"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Marian Stanko",
     "email": "cotemarianstanko@gmail.com",
@@ -2871,7 +3132,8 @@
     "photo": "https://pbs.twimg.com/profile_images/691516798370316292/fi-6scZP_400x400.jpg"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Curtis Nelson",
     "email": "",
@@ -2882,7 +3144,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Tina Gibson",
     "email": "",
@@ -2893,7 +3156,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/12360416_10208828031326441_2172603477077188580_n.jpg?oh=ef3a09ed38888961fb6dff2751ddcaa2&oe=5891635C"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Kendell Muenzler",
     "email": "",
@@ -2904,7 +3168,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Alexander Kim",
     "email": "",
@@ -2915,7 +3180,8 @@
     "photo": "https://static.wixstatic.com/media/9af165_2898652b353841fc86cd1588602d59ed.jpg/v1/fill/w_294,h_374,al_c,q_80,usm_0.66_1.00_0.01/9af165_2898652b353841fc86cd1588602d59ed.jpg"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Virginia Able",
     "email": "",
@@ -2926,7 +3192,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "John Dillard",
     "email": "dillard@uta.edu",
@@ -2937,7 +3204,8 @@
     "photo": "https://library.uta.edu/sites/default/files/styles/square_thumbnail/public/JohnDillard-crop1.jpg?itok=3sD2ELqm"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Thomas Knight",
     "email": "",
@@ -2948,7 +3216,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Marian Knowlton",
     "email": "marian.knowlton@gmail.com",
@@ -2959,7 +3228,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Rex Teter",
     "email": "",
@@ -2970,7 +3240,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/10257816_10202907878210422_5782198725946370954_n.jpg?oh=2b5242f799eb6addd190f305890a3f91&oe=58CF2372"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Stephen (Chris) Suprun Jr.",
     "email": "",
@@ -2981,7 +3252,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Jon Jewett",
     "email": "",
@@ -2992,7 +3264,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Susan Fischer",
     "email": "fischergop@sbcglobal.net",
@@ -3003,7 +3276,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Loren Byers",
     "email": "loren@lorenbyers.com",
@@ -3014,7 +3288,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "William Lawrence Greene",
     "email": "wgreene@southtexascollege.edu",
@@ -3025,7 +3300,8 @@
     "photo": ""
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Mary Lou Erben",
     "email": "info@comalcountygop.org",
@@ -3036,7 +3312,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/551884_324864130905350_1056383182_n.jpg?oh=6a8d6b3c85e113eb19ba7f1abaf8eea9&oe=58D1533F"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Art Sisneros",
     "email": "",
@@ -3047,7 +3324,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/1044846_690832560942913_1103769318_n.jpg?oh=5bedab666dcd9b6a823b1799e72e56ec&oe=58C327DA"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Candace Noble",
     "email": "",
@@ -3058,7 +3336,8 @@
     "photo": "http://www.candacenoble.com/images/candy.jpg"
   },
   {
-    "code": "TX",
+    "abuse_reported": false,
+	"code": "TX",
     "state": "Texas",
     "elector": "Fred Farias",
     "email": "",
@@ -3069,7 +3348,8 @@
     "photo": "http://www.aoa.org/Images/news/FredFariasIII.jpg"
   },
   {
-    "code": "UT",
+    "abuse_reported": false,
+	"code": "UT",
     "state": "Utah",
     "elector": "Peter Greathouse",
     "email": "",
@@ -3080,7 +3360,8 @@
     "photo": ""
   },
   {
-    "code": "UT",
+    "abuse_reported": false,
+	"code": "UT",
     "state": "Utah",
     "elector": "Jeremy Jenkins",
     "email": "jeremyjenkins1@yahoo.com",
@@ -3091,7 +3372,8 @@
     "photo": ""
   },
   {
-    "code": "UT",
+    "abuse_reported": false,
+	"code": "UT",
     "state": "Utah",
     "elector": "Kris Kimball",
     "email": "kriskimball.kk@gmail.com",
@@ -3102,7 +3384,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.200.200/p200x200/14492376_204987669906686_7508902524783973703_n.jpg?oh=259fb2e1f10da1e740281870f635f0a7&oe=58CB1D7A"
   },
   {
-    "code": "UT",
+    "abuse_reported": false,
+	"code": "UT",
     "state": "Utah",
     "elector": "Cherilyn Eagar",
     "email": "",
@@ -3113,7 +3396,8 @@
     "photo": "https://pbs.twimg.com/profile_images/484748916009603072/KnJuuHAo_400x400.jpeg"
   },
   {
-    "code": "UT",
+    "abuse_reported": false,
+	"code": "UT",
     "state": "Utah",
     "elector": "Chia-Chi Teng",
     "email": "info@tengforutah.org",
@@ -3124,7 +3408,8 @@
     "photo": ""
   },
   {
-    "code": "UT",
+    "abuse_reported": false,
+	"code": "UT",
     "state": "Utah",
     "elector": "Richard Snelgrove",
     "email": "",
@@ -3135,7 +3420,8 @@
     "photo": "http://slco.org/uploadedImages/depot/fCouncil/richardSnelgrove.jpg"
   },
   {
-    "code": "WV",
+    "abuse_reported": false,
+	"code": "WV",
     "state": "West Virginia",
     "elector": "Ron Foster",
     "email": "",
@@ -3146,7 +3432,8 @@
     "photo": ""
   },
   {
-    "code": "WV",
+    "abuse_reported": false,
+	"code": "WV",
     "state": "West Virginia",
     "elector": "Patrick Morrisey",
     "email": "info@patrickmorrisey.com",
@@ -3157,7 +3444,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/14991960_1221216251270493_5271829921459095323_n.jpg?oh=e2f73caf2dec9e64cc286f40d3299d52&oe=588A24EC"
   },
   {
-    "code": "WV",
+    "abuse_reported": false,
+	"code": "WV",
     "state": "West Virginia",
     "elector": "Ann Urling",
     "email": "ann@annurling.com",
@@ -3168,7 +3456,8 @@
     "photo": "http://www.annurling.com/header.jpg"
   },
   {
-    "code": "WV",
+    "abuse_reported": false,
+	"code": "WV",
     "state": "West Virginia",
     "elector": "Mac Warner",
     "email": "macwarner@warnerforus.com",
@@ -3179,7 +3468,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/12742674_234856360181831_6698269276457936607_n.jpg?oh=2232bfb18672fc1fa87219e2f3a431f0&oe=58C82B1D"
   },
   {
-    "code": "WV",
+    "abuse_reported": false,
+	"code": "WV",
     "state": "West Virginia",
     "elector": "Bill Cole",
     "email": "info@billcoleforwv.com",
@@ -3190,7 +3480,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.200.200/p200x200/13669847_1237069803019028_2675425598497017439_n.jpg?oh=8683e05074e22797cba9daca5c20c7b8&oe=58C13BBB"
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Steve King",
     "email": "",
@@ -3201,7 +3492,8 @@
     "photo": ""
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Mary Buestrin",
     "email": "",
@@ -3212,7 +3504,8 @@
     "photo": ""
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Kim Travis",
     "email": "",
@@ -3223,7 +3516,8 @@
     "photo": ""
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Kim Babler",
     "email": "",
@@ -3234,7 +3528,8 @@
     "photo": ""
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Brian Westrate",
     "email": "brianwestrate@gmail.com",
@@ -3245,7 +3540,8 @@
     "photo": "https://pbs.twimg.com/profile_images/798218372559282185/1YVba-ir_400x400.jpg"
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Brad Courtney",
     "email": "",
@@ -3256,7 +3552,8 @@
     "photo": ""
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Kathy Kiernan",
     "email": "",
@@ -3267,7 +3564,8 @@
     "photo": ""
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Dan Feyen",
     "email": "dan@feyenforsenate.com",
@@ -3278,7 +3576,8 @@
     "photo": "https://scontent.xx.fbcdn.net/v/t1.0-9/945499_10207041131085785_6787824598369670996_n.jpg?oh=77ae2958c7c7902d563dcb5c4325f83e&oe=5887CF85"
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Jim (James) Miller",
     "email": "cd7.chairman@wisgop.info",
@@ -3289,7 +3588,8 @@
     "photo": "https://media.licdn.com/media/AAEAAQAAAAAAAAYEAAAAJDM5MWM4NjU2LTg4ODMtNDFiZS1iYzg4LTcwMTRjMWQ2MjFmNA.jpg"
   },
   {
-    "code": "WI",
+    "abuse_reported": false,
+	"code": "WI",
     "state": "Wisconsin",
     "elector": "Bill Berglund",
     "email": "",
@@ -3300,7 +3600,8 @@
     "photo": "http://www.gannett-cdn.com/experiments/usatoday/responsive/2016/06/trump-clinton-nation/assets/img/portraits/greenbay_berglund_william_trump.jpg"
   },
   {
-    "code": "WY",
+    "abuse_reported": false,
+	"code": "WY",
     "state": "Wyoming",
     "elector": "Karl Allred",
     "email": "karl.allred@prodigy.net",
@@ -3311,7 +3612,8 @@
     "photo": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p320x320/12987025_122526624816165_7569958506539182939_n.jpg?oh=e35cea9d30c9d29ff7914454feddf54f&oe=58CC513F"
   },
   {
-    "code": "WY",
+    "abuse_reported": false,
+	"code": "WY",
     "state": "Wyoming",
     "elector": "Bonnie Foster",
     "email": "bmrfoster@gmail.com",
@@ -3322,7 +3624,8 @@
     "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/122/26a/343e269.jpg"
   },
   {
-    "code": "WY",
+    "abuse_reported": true,
+	"code": "WY",
     "state": "Wyoming",
     "elector": "Teresa Richards",
     "email": "teresa@teresarichards.com",

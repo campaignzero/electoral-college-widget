@@ -216,7 +216,14 @@ var appWidget = {
               jQuery('.elector-wrapper').not(jQuery(this).closest('.elector-wrapper')).removeClass('open').addClass('closed');
               jQuery(this).closest('.elector-wrapper').toggleClass('open').toggleClass('closed');
 
-              appWidget.trackEvent('EC Widget', 'Elector Toggled Name', elector);
+              var isOpened = jQuery(this).closest('.elector-wrapper').hasClass('open');
+
+              if (isOpened) {
+                appWidget.trackEvent('EC Widget', 'Elector Opened Name', elector);
+              } else {
+                appWidget.trackEvent('EC Widget', 'Elector Closed Name', elector);
+              }
+
               event.preventDefault();
             });
           }

@@ -128,7 +128,7 @@
       // Load Required Libraries first then init widget
       loadScript('https://www.google-analytics.com/analytics.js', function(){
         if(typeof window.ga !== 'undefined'){
-          ga('create', 'UA-77948909-1', 'auto', 'electoralCollegeWidget');
+          ga('create', 'UA-87935266-1', 'auto', 'electoralCollegeWidget');
           ga('electoralCollegeWidget.send', 'pageview');
         }
 

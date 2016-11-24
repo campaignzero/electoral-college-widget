@@ -276,7 +276,7 @@ var appWidget = {
 
         if (state === lastState) {
           lastState = '';
-          jQuery('.state-selection', elm).html('<div class="message animated slideInUp"><i class="material-icons animated fadeInUp">keyboard_arrow_up</i> Select a State to Get Started <i class="material-icons animated fadeInUp">keyboard_arrow_up</i></div>');
+          jQuery('.state-selection', elm).html('<div class="message animated slideInUp"><i class="material-icons animated fadeInUp">keyboard_arrow_up</i> Select a <strong>Red</strong> State <span>to Get Started</span> <i class="material-icons animated fadeInUp">keyboard_arrow_up</i></div>');
           return false;
         }
 

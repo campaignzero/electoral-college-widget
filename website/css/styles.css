@@ -362,6 +362,18 @@ nav ul, nav li {
   background: #880027 !important;
 }
 
+#electoral-college-widget .message strong {
+  background: #ec0044 !important;
+  color: #FFF !important;
+  padding: 0 2px;
+}
+
+#electoral-college-widget.xxl .message strong,
+#electoral-college-widget.xl .message strong,
+#electoral-college-widget.l .message strong {
+  padding: 0 2px 0 8px;
+}
+
 #electoral-college-widget .message,
 #electoral-college-widget h1 {
   color: #FFF !important;
